@@ -23,9 +23,9 @@ class MyApp(QWidget):
         # QListWidget 추가
         self.listwidget2 = QListWidget(self)
         self.listwidget2.resize(150, 100)
-
         # 시그널 연결
-        self.listwidget.itemSelectionChanged.connect(self.selectchanged_listwidget)
+        self.listwidget.itemSelectionChanged.connect(self.selectchanged_listwidget);
+
         # --- 삭제 버튼 생성 --
         self.delete_button = QPushButton(self);
         self.delete_button.move(180, 5)
@@ -69,7 +69,9 @@ class MyApp(QWidget):
         lst_item = self.listwidget.selectedItems()# 선택된 데이터 체크
         # 선택된 데이터 출력 file 리스트 출력
         for item in lst_item:
-            print(item.text())
+            print(item.text());
+            
+    
     def clicked_delete_button(self):
         # 선택된 데이터가 있는지 체크
         lst_modelindex = self.listwidget.selectedIndexes()
