@@ -1,65 +1,84 @@
-from datetime import datetime, timedelta
-import os , openpyxl, logging,logging.handlers
-from tkinter import *
-from tkinter import messagebox
+## Ex 5-19. QTextBrowser.
 
-log_today = datetime.now();
-log_today = str(log_today).split(" ")[0];
+import sys, json
+from PyQt5.QtWidgets import (QApplication, QWidget
+, QLineEdit, QTextBrowser, QPushButton, QVBoxLayout)
+from PyQt5.QtWidgets import *
+from PyQt5.QtGui import *
+from PyQt5.QtCore import *
 
-log = logging.getLogger("C:/Users/user/OneDrive - 대한광통신/바탕 화면/예약/folderList_"+str(log_today)+".log");
-log.setLevel(logging.DEBUG);
-fileHandler = logging.FileHandler("C:/Users/user/OneDrive - 대한광통신/바탕 화면/예약/folderList_"+str(log_today)+".log");
-streamHadler = logging.StreamHandler();
+class MyApp(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.initUI()
 
-log.addHandler(fileHandler);
-log.addHandler(streamHadler);
+    def initUI(self):
+        self.le = QLineEdit()
+        self.le.returnPressed.connect(self.append_text);
 
+        # QListWidget 추가
+        self.listwidget = QListWidget(self)
+        self.listwidget.resize(150, 100)
 
-# gui 해당 루트 선택 input값으로.
-directory = r'\\10.12.11.20\TFO.FAIT.Share';
+        # QListWidget 추가
+        self.listwidget2 = QListWidget(self)
+        self.listwidget2.resize(150, 100)
 
-dest_filename = 'folderList.xlsx';
-load_monitoring = openpyxl.load_workbook(dest_filename);
+        # 시그널 연결
+        self.listwidget.itemSelectionChanged.connect(self.selectchanged_listwidget)
+        # --- 삭제 버튼 생성 --
+        self.delete_button = QPushButton(self);
+        self.delete_button.move(180, 5)
+        self.delete_button.setText('삭제')
 
-root = Tk();
-root.title("folder Scan");
-root.geometry("640x480")
+        # 삭제 시그널
+        self.delete_button.clicked.connect(self.clicked_delete_button)
 
+        self.layout = QGridLayout()
+        self.layout.addWidget(self.le,1,0)
+        self.layout.addWidget(self.delete_button,2,0);
+        self.layout.addWidget(self.listwidget, 0, 0)
 
-def run_fast_scandir(dir):   
-    subfolders = [];
-    try:
-        for f in os.scandir(dir):
-            if f.is_dir():
-                subfolders.append(f.path)
-    except PermissionError as ps:
-        print(ps);
-        pass
+        self.layout.addWidget(self.listwidget2, 0, 1)
 
+        self.setLayout(self.layout)
 
-    for dir in list(subfolders):
-        sf = run_fast_scandir(dir)
-        subfolders.extend(sf)
-    return subfolders;
+        self.setWindowTitle('QTextBrowser')
+        self.setGeometry(300, 300, 1000, 500)
+        self.show()
 
-def excelWrite(folderPath, Path):
-    load_ws = load_monitoring['Sheet1'];
-    for i in range(1, len(folderPath)):
-        load_ws['A'+str(i)].value = '=HYPERLINK("{}")'.format(folderPath[i]);
+    def append_text(self):
+        text = self.le.text();
+        if text == r'\\10.12.11.20\TFO.FAIT.Share':
+            with open('folderScan.json', 'r', encoding='utf-8') as f:
+                json_data = json.load(f);
+            
+            # fileBox = [];
+            cnt = 0;
+            for i in range(0,len(json_data)):
+                path = json_data[i]['path'];
+                dir = json_data[i]['dir'];
+                file = json_data[i]['file'];
+                for j in dir:
+                    cnt += 1;
+                    self.listwidget.insertItem(cnt, j);
+        else:
+            print("none path");
 
-    load_monitoring.save(Path);
+    def selectchanged_listwidget(self):
+        lst_item = self.listwidget.selectedItems()# 선택된 데이터 체크
+        # 선택된 데이터 출력 file 리스트 출력
+        for item in lst_item:
+            print(item.text())
+    def clicked_delete_button(self):
+        # 선택된 데이터가 있는지 체크
+        lst_modelindex = self.listwidget.selectedIndexes()
+        # 선택된 데이터 삭제
+        for modelindex in lst_modelindex:
+            print(modelindex.row())
+            self.listwidget.model().removeRow(modelindex.row())
 
-
-
-
-root.mainloop()  # 창이 닫히지 않게 해주는 것
-
-# subfolders = run_fast_scandir(directory);
-
-# excelWrite(subfolders, dest_filename);
-
-
-
-
-
-
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    ex = MyApp()
+    sys.exit(app.exec_());
