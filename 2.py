@@ -27,12 +27,12 @@ class MyApp(QWidget):
         # 시그널 연결
         self.listwidget.itemSelectionChanged.connect(self.selectchanged_listwidget);
 
-        # --- 삭제 버튼 생성 --
+        # --- 비우기 버튼 생성 --
         self.delete_button = QPushButton(self);
         self.delete_button.move(180, 5)
         self.delete_button.setText('청소')
 
-        # 삭제 시그널
+        # 비우기 시그널
         self.delete_button.clicked.connect(self.clicked_delete_button)
 
         self.layout = QGridLayout()
@@ -49,6 +49,9 @@ class MyApp(QWidget):
         self.show()
 
     def append_text(self):
+        self.listwidget2.clear();
+        self.listwidget.clear();
+
         text = self.le.text();
         with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScan.json', 'r', encoding='utf-8') as f:
             json_data = json.load(f);
@@ -102,7 +105,7 @@ class MyApp(QWidget):
         self.listwidget.clear();
         self.listwidget2.clear();
         self.le.clear();
-        
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = MyApp()
