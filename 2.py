@@ -1,6 +1,7 @@
 ## Ex 5-19. QTextBrowser.
 
-import sys, json
+import sys, json, os
+from tkinter import messagebox
 from PyQt5.QtWidgets import (QApplication, QWidget
 , QLineEdit, QTextBrowser, QPushButton, QVBoxLayout)
 from PyQt5.QtWidgets import *
@@ -29,7 +30,7 @@ class MyApp(QWidget):
         # --- 삭제 버튼 생성 --
         self.delete_button = QPushButton(self);
         self.delete_button.move(180, 5)
-        self.delete_button.setText('삭제')
+        self.delete_button.setText('청소')
 
         # 삭제 시그널
         self.delete_button.clicked.connect(self.clicked_delete_button)
@@ -49,37 +50,59 @@ class MyApp(QWidget):
 
     def append_text(self):
         text = self.le.text();
-        if text == r'\\10.12.11.20\TFO.FAIT.Share':
-            with open('folderScan.json', 'r', encoding='utf-8') as f:
-                json_data = json.load(f);
-            
-            # fileBox = [];
+        with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScan.json', 'r', encoding='utf-8') as f:
+            json_data = json.load(f);
+
+            # if text == r'\\10.12.11.20\TFO.FAIT.Share':
+                
+                # fileBox = [];
             cnt = 0;
             for i in range(0,len(json_data)):
                 path = json_data[i]['path'];
                 dir = json_data[i]['dir'];
                 file = json_data[i]['file'];
-                for j in dir:
-                    cnt += 1;
-                    self.listwidget.insertItem(cnt, j);
-        else:
-            print("none path");
+                if text == path:
+                    if not dir:
+                        dir = ["폴더가 없습니다."]
+                    elif not file:
+                        file = ["파일이 없습니다."]
+
+                    for j in dir:
+                        cnt += 1;
+                        self.listwidget.insertItem(cnt, j);
+                    for k in file:
+                        cnt += 1;
+                        self.listwidget2.insertItem(cnt, k);
 
     def selectchanged_listwidget(self):
-        lst_item = self.listwidget.selectedItems()# 선택된 데이터 체크
-        # 선택된 데이터 출력 file 리스트 출력
-        for item in lst_item:
-            print(item.text());
-            
+        self.listwidget2.clear();
+
+        lst_item = self.listwidget.selectedItems(); # 선택된 데이터 체크
+        text = self.le.text();
+        with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScan.json', 'r', encoding='utf-8') as f:
+                json_data = json.load(f);
+
+                for item in lst_item:
+                    itemText = item.text();
+                    
+                    for i in range(0,len(json_data)):
+                        path = json_data[i]['path'];
+                        dir = json_data[i]['dir'];
+                        file = json_data[i]['file'];
+
+                        # print("path : ",path);
+                        # print("R Path : ", r"'"+path+"'")
+
+                        if path == text+"\\"+itemText:
+                            # print(len(file));
+                            for i in range(len(file)):
+                                self.listwidget2.insertItem(i,file[i]);
     
     def clicked_delete_button(self):
-        # 선택된 데이터가 있는지 체크
-        lst_modelindex = self.listwidget.selectedIndexes()
-        # 선택된 데이터 삭제
-        for modelindex in lst_modelindex:
-            print(modelindex.row())
-            self.listwidget.model().removeRow(modelindex.row())
-
+        self.listwidget.clear();
+        self.listwidget2.clear();
+        self.le.clear();
+        
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = MyApp()
