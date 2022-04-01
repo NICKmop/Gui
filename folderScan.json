@@ -1,1 +1,402 @@
-[{"path": "\\\\10.12.11.20\\TFO.FAIT.Share", "dir": ["# IT 업무", "# ITHELPDESK", "# SFA WMS 배포파일", "# 과거 자료", "# 스마트팩토리_정부지원사업", "# 엔터테인먼트", "#100_AI 분석", "#A01_주간업무보고", "#A02_IT Request", "#A03_일반업무", "#A04_유지보수", "#A05_비용처리", "#A06_인수인계", "#B01_매뉴얼", "#B02_장애처리", "#C01_프로젝트", "#recycle", "#데이타베이스", "#장비온라인-모니터링", "#전산기기", "A03_Request 분석", "A04_Request 자료", "A04_심사", "B10_장애처리", "D01_문서", "dat관련", "E01_설치프로그램", "EAP 백업", "HR", "IT_교육", "TFOWMS", "가상머신(개발자)", "개발자 셋팅", "네트워크 공사", "사용자매뉴얼_업체", "사진자료", "새 폴더", "생산관리팀 백업", "스마트공장정부지원", "이슈보고", "임시", "임영두", "정지범", "지시사항"], "file": ["(예시) 2021년 2분기 OKR 진행상황(국내영업팀) 210705.pptx", "2021년 2분기 OKR (각팀별)_20210510.pptx", "2021년 2분기 OKR (부문 및 본부)_20210510.pptx", "2021년 2분기 OKR 진행상황(부서별) 210705 JW.pptx", "2021년 4분기 OKR 계획(양식).pptx", "2022년_TFO 장비온라인모니터링.xlsx", "E01_프로그램 - 바로 가기.lnk", "OKR스코아카드(양식1)_배포용.docx", "Thumbs.db", "WINDOWS 10 PRO 제품키.txt", "[ITreq]검사실적 조회 화면 조회조건 추가요청.pptx", "공인인증서 등록 방법.xlsx", "사내교육정리(20200325).pptx", "정지범2022-03-28.log", "첨부1. 2021년 연간 및 2분기 전사 OKR 설정 (부서별)_경영지원부문.pptx", "첨부2. (작성)2021년 연간 및 2분기 전사 OKR(개인별 양식) 210401.pptx", "통합 문서3.xlsx"]}, {"path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# IT 업무", "dir": ["DRM", "계정관리", "안산 EAP", "프로그램 사용자 관리"], "file": ["sample.docx", "sample.pptx", "[대한전선]문서보안_운영자메뉴얼_FED_FSP_v4.0.docx", "~$Microsoft Word 문서.DOCX", "새 Microsoft Word 문서.DOCX", "안산 J동 도면_1-5F.pdf", "업무정의.xlsx", "업무정의_1.xlsx"]}, {"path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# IT 업무\\DRM", "dir": [], "file": ["[대한전선]문서보안_사용자메뉴얼_v1.0.pptx", "[대한전선]문서보안_운영자메뉴얼_FED_FSN_v4.0.docx", "[대한전선]문서보안_운영자메뉴얼_FED_FSP_v4.0.docx", "[대한전선]문서보안_정책정의서_v1.0.ppt", "[대한전선]문서보안_정책정의서_외부반출정책_v1.0.pptx", "대한전선_DRM_ 사용자교육자료.pptx", "대한전선_문서보안구축_완료보고서_20131115.pptx", "파수닷컴.문서보안 표준 제안서_2013.pptx"]}, {"path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# IT 업무\\계정관리", "dir": [], "file": ["대한광통신 예산공장 MES - VPN SAP MES 접속계정신청.xlsx"]}, {"path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# IT 업무\\안산 EAP", "dir": ["유지보수레포트"], "file": ["팡데이터 소프트웨어 유지보수 계약서.pdf"]}, {"path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# IT 업무\\안산 EAP\\유지보수레포트", "dir": [], "file": ["PangData 정기점검_20200128.docx", "PangData 정기점검_20210330.docx", "PangData 정기점검_20210531.docx", "PangData 정기점검_20210729.docx"]}, {"path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# IT 업무\\프로그램 사용자 관리", "dir": ["AutCAD 매뉴얼"], "file": ["Auto CAD 사용자 리스트_2012.xlsx"]}, {"path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# IT 업무\\프로그램 사용자 관리\\AutCAD 매뉴얼", "dir": [], "file": ["2021_Autodesk_관리자 가이드.pdf", "2021_Autodesk_사용자 설치 가이드.pdf", "대한광통신_2021-10-22_autodesk(1년).pdf"]}, {"path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK", "dir": ["07_유지보수지원", "1. 설치 프로그램", "2. 수리요청서", "3. EAP 모니터링", "4. IP 사용 내역", "5. 업체정기점검", "8_계정정리", "9_M365", "dotnetfx_cleanup_tool", "이창섭", "전임자 파일"], "file": ["helpdesk 업무 정의.xlsx", "Thumbs.db", "각 서버 접속용 계정.xlsx", "전산기기 setup 및 수리요청서.xlsx"]}, {"path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\07_유지보수지원", "dir": ["미라콤_오라클 점검", "정원앤시스_오라클 점검", "프레버소프트_EAP 서버 점검"], "file": []}]
+[{
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share",
+        "dir": ["# IT 업무", "# ITHELPDESK", "# SFA WMS 배포파일", "# 과거 자료", "# 스마트팩토리_정부지원사업", "# 엔터테인먼트", "#100_AI 분석", "#A01_주간업무보고", "#A02_IT Request", "#A03_일반업무", "#A04_유지보수", "#A05_비용처리", "#A06_인수인계", "#B01_매뉴얼", "#B02_장애처리", "#C01_프로젝트", "#recycle", "#데이타베이스", "#장비온라인-모니터링", "#전산기기", "A03_Request 분석", "A04_Request 자료", "A04_심사", "B10_장애처리", "D01_문서", "dat관련", "E01_설치프로그램", "EAP 백업", "HR", "IT_교육", "TFOWMS", "가상머신(개발자)", "개발자 셋팅", "네트워크 공사", "사용자매뉴얼_업체", "사진자료", "새 폴더", "생산관리팀 백업", "스마트공장정부지원", "이슈보고", "임시", "임영두", "정지범", "지시사항"],
+        "file": ["(예시) 2021년 2분기 OKR 진행상황(국내영업팀) 210705.pptx", "2021년 2분기 OKR (각팀별)_20210510.pptx", "2021년 2분기 OKR (부문 및 본부)_20210510.pptx", "2021년 2분기 OKR 진행상황(부서별) 210705 JW.pptx", "2021년 4분기 OKR 계획(양식).pptx", "2022년_TFO 장비온라인모니터링.xlsx", "E01_프로그램 - 바로 가기.lnk", "folderScan.json", "OKR스코아카드(양식1)_배포용.docx", "Thumbs.db", "WINDOWS 10 PRO 제품키.txt", "[ITreq]검사실적 조회 화면 조회조건 추가요청.pptx", "공인인증서 등록 방법.xlsx", "사내교육정리(20200325).pptx", "정지범2022-03-28.log", "첨부1. 2021년 연간 및 2분기 전사 OKR 설정 (부서별)_경영지원부문.pptx", "첨부2. (작성)2021년 연간 및 2분기 전사 OKR(개인별 양식) 210401.pptx", "통합 문서3.xlsx"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# IT 업무",
+        "dir": ["DRM", "계정관리", "안산 EAP", "프로그램 사용자 관리"],
+        "file": ["sample.docx", "sample.pptx", "[대한전선]문서보안_운영자메뉴얼_FED_FSP_v4.0.docx", "~$Microsoft Word 문서.DOCX", "새 Microsoft Word 문서.DOCX", "안산 J동 도면_1-5F.pdf", "업무정의.xlsx", "업무정의_1.xlsx"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# IT 업무\\DRM",
+        "dir": [],
+        "file": ["[대한전선]문서보안_사용자메뉴얼_v1.0.pptx", "[대한전선]문서보안_운영자메뉴얼_FED_FSN_v4.0.docx", "[대한전선]문서보안_운영자메뉴얼_FED_FSP_v4.0.docx", "[대한전선]문서보안_정책정의서_v1.0.ppt", "[대한전선]문서보안_정책정의서_외부반출정책_v1.0.pptx", "대한전선_DRM_ 사용자교육자료.pptx", "대한전선_문서보안구축_완료보고서_20131115.pptx", "파수닷컴.문서보안 표준 제안서_2013.pptx"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# IT 업무\\계정관리",
+        "dir": [],
+        "file": ["대한광통신 예산공장 MES - VPN SAP MES 접속계정신청.xlsx"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# IT 업무\\안산 EAP",
+        "dir": ["유지보수레포트"],
+        "file": ["팡데이터 소프트웨어 유지보수 계약서.pdf"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# IT 업무\\안산 EAP\\유지보수레포트",
+        "dir": [],
+        "file": ["PangData 정기점검_20200128.docx", "PangData 정기점검_20210330.docx", "PangData 정기점검_20210531.docx", "PangData 정기점검_20210729.docx"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# IT 업무\\프로그램 사용자 관리",
+        "dir": ["AutCAD 매뉴얼"],
+        "file": ["Auto CAD 사용자 리스트_2012.xlsx"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# IT 업무\\프로그램 사용자 관리\\AutCAD 매뉴얼",
+        "dir": [],
+        "file": ["2021_Autodesk_관리자 가이드.pdf", "2021_Autodesk_사용자 설치 가이드.pdf", "대한광통신_2021-10-22_autodesk(1년).pdf"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK",
+        "dir": ["07_유지보수지원", "1. 설치 프로그램", "2. 수리요청서", "3. EAP 모니터링", "4. IP 사용 내역", "5. 업체정기점검", "8_계정정리", "9_M365", "dotnetfx_cleanup_tool", "이창섭", "전임자 파일"],
+        "file": ["helpdesk 업무 정의.xlsx", "Thumbs.db", "각 서버 접속용 계정.xlsx", "전산기기 setup 및 수리요청서.xlsx", "템플릿.pptx"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\07_유지보수지원",
+        "dir": ["미라콤_오라클 점검", "정원앤시스_오라클 점검", "프레버소프트_EAP 서버 점검"],
+        "file": []
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\07_유지보수지원\\미라콤_오라클 점검",
+        "dir": [],
+        "file": []
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\07_유지보수지원\\정원앤시스_오라클 점검",
+        "dir": ["MES_PLM_WMS_미라콤", "WMS_PMS_PMSEQ_정원앤시스"],
+        "file": []
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\07_유지보수지원\\정원앤시스_오라클 점검\\MES_PLM_WMS_미라콤",
+        "dir": [],
+        "file": ["Oracle점검_20210330.pdf", "Oracle점검_20210706.pdf"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\07_유지보수지원\\정원앤시스_오라클 점검\\WMS_PMS_PMSEQ_정원앤시스",
+        "dir": [],
+        "file": ["대한광통신_오라클정기점검_02월.xls", "대한광통신_오라클정기점검_202008.xls", "대한광통신_오라클정기점검_202009.xls", "대한광통신_오라클정기점검_202010.xls", "대한광통신_오라클정기점검_202011.xls", "대한광통신_오라클정기점검_202012.xls", "대한광통신_오라클정기점검_202102.xls", "대한광통신_오라클정기점검_202103.xls", "대한광통신_오라클정기점검_202104.xls", "대한광통신_오라클정기점검_202105.xls", "대한광통신_오라클정기점검_202107.xls", "대한광통신_오라클정기점검_202108.xls", "대한광통신_오라클정기점검_202109.xls", "대한광통신_오라클정기점검_202201.xls"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\07_유지보수지원\\프레버소프트_EAP 서버 점검",
+        "dir": [],
+        "file": ["PangData 정기점검_20210128.docx", "PangData 정기점검_20210330.docx", "PangData 정기점검_20210531.docx", "PangData 정기점검_20210729.docx"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램",
+        "dir": ["0_기본앱 설정_인터넷 설정", "1_SAP 설치", "2_M365", "3_OFFICE2016", "4_팀즈", "5_V3", "6_한글 NEO", "7_Nethelper", "8_어도비", "9_DRM 설치파일", "CAD", "MES_WMS 설치파일 20220104", "SCM", "VPN 설치", "windows10 설치 파일", "안산 FMB 설치 프로그램", "오피스 완전 삭제 툴", "원격 프로그램", "유틸", "프린터 드라이버"],
+        "file": ["WINDOWS 10 PRO 제품키.txt"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\0_기본앱 설정_인터넷 설정",
+        "dir": [],
+        "file": ["0_기본앱 설정_인터넷 설정.txt", "Thumbs.db", "기본앱 설정_인터넷 설정.pptx"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치",
+        "dir": ["1. SAP GUI"],
+        "file": ["1. SAP GUI.zip", "2. gui730_7-10010496.exe", "3. ERP(통합정보시스템).lnk", "ERP_사용자_로그인_안내_v1.0.pptx", "SAP 설치파일 위치.lnk", "SAP_GUI_설치_매뉴얼.pptx", "Thumbs.db"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI",
+        "dir": ["NW_7.0_Presentation_"],
+        "file": []
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_",
+        "dir": ["PRES1"],
+        "file": ["CDLABEL.ASC", "CDLABEL.EBC", "COPY_TM.HTM", "COPY_TM.TXT", "CRCFILE.DAT", "LABEL.ASC", "LABEL.EBC", "LABELIDX.ASC", "README.TXT", "SHAFILE.DAT", "VERSION.ASC", "VERSION.EBC"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1",
+        "dir": ["BI_PreCalServer", "DOCU", "GUI", "NT", "nwbc", "SAPCONSOLE", "SAPPdfPrint", "SAPSPrint", "Screen_Reader_Extension"],
+        "file": ["LABEL.ASC", "LABELIDX.ASC", "PROD_LABEL", "README.TXT"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\BI_PreCalServer",
+        "dir": ["BI_Prec", "Setup"],
+        "file": ["SapBiPcsSetup.exe", "SetupAll.exe"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\BI_PreCalServer\\BI_Prec",
+        "dir": [],
+        "file": ["BExAnalyzer.xla", "BExPreCalcInstance.dll", "BExPreCalcRFCServer.dll", "BExPreCalcWindowsService.exe", "BExPreCalcWindowsServiceMulti.exe", "BExPrecalcWorker.exe", "BExPrecConsoleDispatcher.exe", "BExPrecConsoleWrapper.exe", "SAP.Connector.dll", "SAP.Connector.Rfc.dll", "sapbexp.xla"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\BI_PreCalServer\\Setup",
+        "dir": ["DS", "signatures"],
+        "file": ["Installation Server Help.chm", "Interop.NwSapAdminEngineLib.dll", "mfc100u.dll", "mfcm100u.dll", "msvcp100.dll", "msvcr100.dll", "NwCheckWorkstation.exe", "NwCreateInstServer.exe", "NwSapAdminEngine.dll", "NwSapFeiLg.dll", "NwSapFeiUt.dll", "NwSapSetup.exe", "NwSapSetupAdmin.exe", "NwSapSetupATLCommon.dll", "NwSapSetupEngine.dll", "NwSapSetupIs.exe", "NwSapSetupOnRebootInstSvc.exe", "NwSapSetupUi.dll", "NwSnapshot64.exe", "NwUpdateInstServer.exe", "processconfig.cfg", "ProductCommon.dtd", "ProductDefinition.dtd", "ProductDefinition2.dtd", "ProductLocales.dtd", "ProductVars.dtd", "SapAdminSplash.jpg", "SapBiPcsLocale.xml", "SapBiPcsSetup.cfg", "SapBiPcsSetup.xml", "SapBiPcsShared.xml", "SapBiPcsVars.xml", "SAPregsv.exe", "SapSetup.xml", "SapSetupError.xsl", "SapSetupLocale.xml", "SapSetupVars.xml", "SapSplash.jpg", "SapSx.exe", "ScriptSamples.xml", "vbscript.dll", "Workstation Installation Help.chm"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\BI_PreCalServer\\Setup\\DS",
+        "dir": [],
+        "file": ["NwSapSetupDs.cfg", "NwSapSetupDs.exe"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\BI_PreCalServer\\Setup\\signatures",
+        "dir": [],
+        "file": ["SapSetup.xml.xig"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\DOCU",
+        "dir": [],
+        "file": ["BI_730_standalone_Installation.pdf", "NW73_Precalc_Installation.pdf", "nwbc35.pdf", "SAPConsole710_Help.pdf", "SAPPDFPrint_DE.pdf", "SAPPDFPrint_EN.pdf", "SAPSprint_DE.pdf", "SAPSprint_EN.pdf", "SAP_Front_End_Installation_Guide.pdf", "SAP_GUI_Administration_Guide.pdf", "SAP_GUI_FAMILY.pdf", "SAP_GUI_Scripting_API.chm", "SAP_GUI_Scripting_Security.pdf", "SAP_GUI_Security_Guide.pdf"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI",
+        "dir": ["WINDOWS"],
+        "file": []
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS",
+        "dir": ["WIN32"],
+        "file": []
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32",
+        "dir": ["BI", "BW", "iwb", "pdbs", "ReadMe", "SapGui", "SEM", "Setup", "system"],
+        "file": ["1_SAP 설치 - 바로 가기.lnk", "SapBiSetup.exe", "SapEngineeringClientViewer7.0Setup.exe", "SapGuiSetup.exe", "SetupAll.exe"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\BI",
+        "dir": [],
+        "file": ["ADODB.dll", "AxInterop.SHDocVw.dll", "AxMAPCONTROLLib.dll", "AxSAPCHARTCONTROLLib.dll", "BExAddin.dll", "BExAddin.tlb", "BExAnalyzer.exe", "BExAnalyzer.xla", "BExApi.dll", "BExApi.tlb", "BExCAControls.dll", "BExCommon.dll", "BExCommunication.dll", "BExCompression.dll", "BExControls.dll", "BExControls2.dll", "BExDialogOpenSave.dll", "BExDiffViewer.dll", "BExFormulaParser.dll", "BExGeneratedAll.dll", "BExInstaller.exe", "BExLocalFormularParser.dll", "BExOpenSaveServices.dll", "BExQueryDesigner.dll", "BExQueryDesignerFormulaParser.dll", "BExQueryDesignerStarter.exe", "BExQueryDesignerStarter.exe.manifest", "BExRDRuler.dll", "BExReportDesigner.dll", "BExReportDesignerStarter.exe", "BExReportDesignerStarter.exe.manifest", "BExSelectorAPI.dll", "BExSelectorDialog.dll", "BExSharedImageList.dll", "BExThemes.dll", "BExVariableScreen.dll", "BExVarScreen.dll", "BExWebApplicationDesigner.exe", "BExWebApplicationDesigner.exe.config", "BExWebApplicationDesigner.exe.manifest", "BExXMLControls.dll", "BExXMLServices.dll", "dte.olb", "EnvDTE.dll", "Interop.MSXML2.dll", "Interop.Office.dll", "Interop.SAPLogonCtrl.dll", "Interop.SHDocVw.dll", "MAPCONTROLLib.dll", "Microsoft.mshtml.dll", "Microsoft.StdFormat.dll", "Microsoft.VisualBasic.Compatibility.Data.dll", "Microsoft.VisualBasic.Compatibility.dll", "MSDATASRC.dll", "MSO.DLL", "msoutl.olb", "Office.dll", "report_designer.ico", "sap.connector.dll", "sap.connector.rfc.dll", "sapbexp.xla", "sapbwwmd.ocx", "SAPCHARTCONTROLLib.dll", "SAPWADMXHTML.dll", "stdole.dll", "syncfusion.core.dll", "syncfusion.edit.windows.dll", "syncfusion.grid.base.dll", "syncfusion.grid.windows.dll", "syncfusion.shared.base.dll", "syncfusion.shared.windows.dll", "syncfusion.tools.base.dll", "syncfusion.tools.windows.dll", "VSLangProj.dll", "VSLangProj.tlb", "WADBackendServices.dll", "WADBExData.dll", "WADBISPParse.dll", "WADChartControlHost.dll", "wadconst.dll", "WADControllib.dll", "WADConversion.dll", "WADHTMLEditHost.dll", "WADHTMLEditing.dll", "WADLowLevelServices.dll", "WADMain.dll", "WADMapControlHost.dll", "WADMetadataGeneration.dll", "WADMXHTML.dll", "WADPageobjects.dll", "WADPropertiesctl.dll", "WADRDHost.dll", "WADRDLoader.dll", "WADRTFIntellisense.dll", "WADRTFIsRegEx.dll", "WADServices.dll", "WADSnapShots.dll", "WADStyleSheetServices.dll", "WADTagLocator.dll", "WADTokenSearch.dll", "WADWizTemplate.dll"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\BW",
+        "dir": ["OleOlap"],
+        "file": ["sapbex.xla", "sapbex0.xla", "sapbexc.xla", "sapbexs.xla"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\BW\\OleOlap",
+        "dir": [],
+        "file": ["librfc32u.dll", "mdrmdlg.dll", "mdrmsap.dll", "mdxpars.dll", "saprfc.ini", "scerrlkp.dll"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb",
+        "dir": ["idbworks", "kwtranslator", "sapshow"],
+        "file": []
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\idbworks",
+        "dir": ["etc", "help", "Language"],
+        "file": ["kenexp.dll", "sapidbw.exe"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\idbworks\\etc",
+        "dir": [],
+        "file": ["filecopy.avi", "findfile.avi", "search.avi", "tips_DE.txt", "tips_EN.txt", "tips_ES.txt", "tips_FI.txt", "tips_FR.txt", "tips_IT.txt", "tips_JA.txt", "tips_KO.txt", "tips_PT.txt", "tips_SV.txt", "tips_ZF.txt", "tips_ZH.txt"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\idbworks\\help",
+        "dir": ["de", "en", "es", "fr", "it", "ja", "pt"],
+        "file": []
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\idbworks\\help\\de",
+        "dir": [],
+        "file": ["00003028.chm", "00003087.chm"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\idbworks\\help\\en",
+        "dir": [],
+        "file": ["00003028.chm", "00003087.chm"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\idbworks\\help\\es",
+        "dir": [],
+        "file": ["00003087.chm"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\idbworks\\help\\fr",
+        "dir": [],
+        "file": ["00003087.chm"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\idbworks\\help\\it",
+        "dir": [],
+        "file": ["00003087.chm"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\idbworks\\help\\ja",
+        "dir": [],
+        "file": ["00003087.chm"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\idbworks\\help\\pt",
+        "dir": [],
+        "file": ["00003087.chm"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\idbworks\\Language",
+        "dir": [],
+        "file": ["SAPIDBW.cz", "SAPIDBW.da", "SAPIDBW.de", "SAPIDBW.en", "SAPIDBW.es", "SAPIDBW.fi", "SAPIDBW.fr", "SAPIDBW.it", "SAPIDBW.ja", "SAPIDBW.ko", "SAPIDBW.nl", "SAPIDBW.po", "SAPIDBW.pt", "SAPIDBW.ru", "SAPIDBW.sv", "SAPIDBW.zf", "SAPIDBW.zh", "SAPKWCRE.de", "SAPKWCRE.en", "SAPKWCRE.es", "SAPKWCRE.fi", "SAPKWCRE.fr", "SAPKWCRE.it", "SAPKWCRE.ja", "SAPKWCRE.ko", "SAPKWCRE.pt", "SAPKWCRE.sv", "SAPKWCRE.zf", "SAPKWCRE.zh", "SAUTPLG.de", "SAUTPLG.en", "SAUTPLG.es", "SAUTPLG.fi", "SAUTPLG.fr", "SAUTPLG.it", "SAUTPLG.ja", "SAUTPLG.ko", "SAUTPLG.pt", "SAUTPLG.sv", "SAUTPLG.zf", "SAUTPLG.zh", "SWOHDOC.de", "SWOHDOC.en", "SWOHDOC.es", "SWOHDOC.fi", "SWOHDOC.fr", "SWOHDOC.it", "SWOHDOC.ja", "SWOHDOC.ko", "SWOHDOC.pt", "SWOHDOC.sv", "SWOHDOC.zf", "SWOHDOC.zh", "SWOHGEN.de", "SWOHGEN.en", "SWOHGEN.es", "SWOHGEN.fi", "SWOHGEN.fr", "SWOHGEN.it", "SWOHGEN.ja", "SWOHGEN.ko", "SWOHGEN.pt", "SWOHGEN.sv", "SWOHGEN.zf", "SWOHGEN.zh", "SWOHHTM.cz", "SWOHHTM.da", "SWOHHTM.de", "SWOHHTM.en", "SWOHHTM.es", "SWOHHTM.fi", "SWOHHTM.fr", "SWOHHTM.it", "SWOHHTM.ja", "SWOHHTM.ko", "SWOHHTM.nl", "SWOHHTM.po", "SWOHHTM.pt", "SWOHHTM.ru", "SWOHHTM.sv", "SWOHHTM.zf", "SWOHHTM.zh", "SWOHIDEF.de", "SWOHIDEF.en", "SWOHIDEF.es", "SWOHIDEF.fi", "SWOHIDEF.fr", "SWOHIDEF.it", "SWOHIDEF.ja", "SWOHIDEF.ko", "SWOHIDEF.pt", "SWOHIDEF.sv", "SWOHIDEF.zf", "SWOHIDEF.zh", "SWOHPPT.de", "SWOHPPT.en", "SWOHPPT.es", "SWOHPPT.fi", "SWOHPPT.fr", "SWOHPPT.it", "SWOHPPT.ja", "SWOHPPT.ko", "SWOHPPT.pt", "SWOHPPT.sv", "SWOHPPT.zf", "SWOHPPT.zh", "SWOHVSD.de", "SWOHVSD.en", "SWOHVSD.es", "SWOHVSD.fi", "SWOHVSD.fr", "SWOHVSD.it", "SWOHVSD.ja", "SWOHVSD.ko", "SWOHVSD.pt", "SWOHVSD.sv", "SWOHVSD.zf", "SWOHVSD.zh", "SWOHXML.cz", "SWOHXML.da", "SWOHXML.de", "SWOHXML.en", "SWOHXML.es", "SWOHXML.fi", "SWOHXML.fr", "SWOHXML.it", "SWOHXML.ja", "SWOHXML.ko", "SWOHXML.nl", "SWOHXML.po", "SWOHXML.pt", "SWOHXML.ru", "SWOHXML.sv", "SWOHXML.zf", "SWOHXML.zh", "SWOHXMLPPT.de", "SWOHXMLPPT.en", "SWOHXMLPPT.es", "SWOHXMLPPT.fi", "SWOHXMLPPT.fr", "SWOHXMLPPT.it", "SWOHXMLPPT.ja", "SWOHXMLPPT.ko", "SWOHXMLPPT.pt", "SWOHXMLPPT.sv", "SWOHXMLPPT.zf", "SWOHXMLPPT.zh", "SXADPAUT.cz", "SXADPAUT.da", "SXADPAUT.de", "SXADPAUT.en", "SXADPAUT.es", "SXADPAUT.fi", "SXADPAUT.fr", "SXADPAUT.it", "SXADPAUT.ja", "SXADPAUT.ko", "SXADPAUT.nl", "SXADPAUT.po", "SXADPAUT.pt", "SXADPAUT.ru", "SXADPAUT.sv", "SXADPAUT.zf", "SXADPAUT.zh", "SXADPEPI.cz", "SXADPEPI.da", "SXADPEPI.de", "SXADPEPI.en", "SXADPEPI.es", "SXADPEPI.fi", "SXADPEPI.fr", "SXADPEPI.it", "SXADPEPI.ja", "SXADPEPI.ko", "SXADPEPI.nl", "SXADPEPI.po", "SXADPEPI.pt", "SXADPEPI.ru", "SXADPEPI.sv", "SXADPEPI.zf", "SXADPEPI.zh", "XMLADAPTORDEF.de", "XMLADAPTORDEF.en", "XMLADAPTORDEF.es", "XMLADAPTORDEF.fi", "XMLADAPTORDEF.fr", "XMLADAPTORDEF.it", "XMLADAPTORDEF.ja", "XMLADAPTORDEF.ko", "XMLADAPTORDEF.pt", "XMLADAPTORDEF.sv", "XMLADAPTORDEF.zf", "XMLADAPTORDEF.zh"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator",
+        "dir": ["cz", "da", "de", "en", "es", "fi", "fr", "it", "ja", "ko", "nl", "po", "pt", "ru", "sv", "zf", "zh"],
+        "file": ["KnowledgeWarehouseTranslator.exe"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\cz",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\da",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\de",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\en",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\es",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\fi",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\fr",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\it",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\ja",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\ko",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\nl",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\po",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\pt",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\ru",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\sv",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\zf",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\kwtranslator\\zh",
+        "dir": [],
+        "file": ["00005554.chm", "KnowledgeWarehouseTranslator.lan"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\iwb\\sapshow",
+        "dir": [],
+        "file": ["sapshow.de", "sapshow.en", "sapshow.exe", "sapshow.ja", "sapstg.dll", "zlib.dll"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\pdbs",
+        "dir": [],
+        "file": ["pdb.exe"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\ReadMe",
+        "dir": [],
+        "file": ["SAP_Front_End_Installation_Guide.pdf"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui",
+        "dir": ["ab4_data", "bitmap", "calsync", "dat", "DtsCOMFramework", "eccs", "eis", "etc", "filc", "fonts", "GMD", "HTMLHELP", "InterActiveXL", "lang", "Products", "Program", "rfcsdk", "RW", "sapguihelp", "saplpd", "Scripting", "TestTools", "themes", "utils", "VVCP", "wwi"],
+        "file": ["ag7as.dll", "apodpgrid.ocx", "apogrid.ocx", "apoviewer.ocx", "AssignmentCtrl.dll", "chart.ocx", "combobox.ocx", "CompInfo730.txt", "convlib.dll", "dav332.dll", "dbghelp.dll", "eCATTRH.dll", "eumfcdll.dll", "euspd1ld", "euspd1le", "euspd2ld", "euspd2le", "euspd3ld", "euspd3le", "euspd4ld", "euspd4le", "euspd5ld", "euspd5le", "euspddld", "euspddle", "euspdtld", "euspdtle", "euspetld", "euspetle", "euspicld", "euspicle", "euspkeyw", "euspktld", "euspktle", "eusplsld", "eusplsle", "euspptld", "euspptle", "euspstld", "euspstle", "euspsxld", "euspsxle", "euspumld", "euspumle", "FrontOptEdit.exe", "gnbax.exe", "gnbmx.exe", "gnbux.exe", "gndlx.exe", "gnetx.exe", "gneux.exe", "gngax.exe", "gngmb.dll", "gnhix.exe", "gnhox.exe", "gnhpx.exe", "gnmsx.exe", "gnnex.exe", "gnpox.exe", "gnscx.exe", "gnstx.exe", "gnsux.exe", "gnupx.exe", "gnwdx.exe", "gnwie.dll", "gnxlx.exe", "grctrl.ocx", "GridView.ocx", "grnfmt32.dll", "grvisgdi.dll", "GuiAbapBits.xml", "guirfc.dll", "guixt.dll", "guixt.exe", "h5dlg32.dll", "h5icon32.dll", "h5krnl32.dll", "h5menu32.dll", "h5rtf32.dll", "h5tool32.dll", "help_04.exe", "HTMLPad.exe", "htmlprs.dll", "htmltidy.dll", "htmltidy.ini", "ICDataFlow.ocx", "ICDataFlow.ocx.uninstall.reg", "ICJoin.ocx", "ICJoin.ocx.uninstall.reg", "ISHMEDControl.dll", "ISHMEDControl.jar", "ISHMEDUtilities.jar", "JCCFWinControl.dll", "JNetBean.dll", "kenppt.dll", "kwedit.dll", "kwnetwizard.dll", "kwstrapi.dll", "kwstrctl.ocx", "leon332.dll", "lprint.exe", "lprintg.dll", "LSAPIWrapper.dll", "niping.exe", "omsprint.exe", "PsDebug.dll", "PsErrorDbg.dll", "rndrt.dll", "sapab4edit.ocx", "sapab4lex.dll", "SAPALVStub.dll", "sapawole.dll", "sapawrfc.dll", "sapbarc.ocx", "SAPBorderPainter.dll", "SAPBTFEditor.dll", "sapcalen.ocx", "sapcltfc.ocx", "sapcms.exe", "sapcncli.ocx", "sapcncsv.ocx", "sapcombo.ocx", "sapcomni.dll", "SapControlPluginInvoker.dll", "sapcpp47.dll", "sapdatap.ocx", "sapdpams.dll", "sapdpcts.ocx", "sapedit.ocx", "sapfcpl.cpl", "sapfctrl.dll", "sapfdraw.dll", "sapfesec.dll", "sapfewcb.dll", "sapfewcls.dll", "sapfewcmen.dll", "sapfewcp.exe", "sapfewcx.dll", "sapfewdbg.dll", "sapfewdp.dll", "sapfewdr.dll", "sapfewed.dll", "sapfewin.ocx", "sapfewnls.dll", "sapfewrm.dll", "sapfewse.ocx", "sapfewtr.dll", "sapfewui.dll", "sapfewuimsg.dll", "sapfewut.dll", "sapfhook.dll", "SAPFormPainter.dll", "sapfprint.dll", "sapfront.dll", "sapftp.exe", "SAPgplmp.dll", "sapgradp.ocx", "sapgui.exe", "SAPGUIControlPlugin.exe", "sapguidrw32.dll", "SapGuiFocus.dll", "sapguilib.dll", "sapguirm.ocx", "sapguirm32.dll", "sapguiserver.exe", "sapguisv.ocx", "saphtml.ocx", "saphtmlm.ocx", "saphtmlp.dll", "saphttp.exe", "sapilidr.ocx", "sapimage.dll", "sapiop.dll", "SAPIRC.DLL", "SAPIRCIO.DLL", "SAPIRCPR.DLL", "SAPIRFTR.EXE", "SAPIRPRP.DLL", "SAPIRPRS.DLL", "SAPIRRFC.DLL", "SAPIRRLB.DLL", "sapkewrd.dll", "SapKwEDbDefault.DLL", "SapKwEDbHtmlEdit.DLL", "SapKwEDbPowerpointShow8.DLL", "SapKwEDbVisioDrawing5.DLL", "SapKwEDbWordDocument8.DLL", "SapKwEDocumentBridge.DLL", "SapKwErrorManagement.DLL", "SapKwHTMLParseBase.dll", "saplgdll.dll", "saplgmgr.dll", "saplgmgr2.dll", "saplgmgr_proxy.dll", "saplgnui.dll", "saplgpad.exe", "saplogon.exe", "sapmap.ocx", "sapmemmgt.dll", "sapmime.dll", "SapMsgForward.ocx", "sapnetz.ocx", "sapoimgr.ocx", "sapoipd.ocx", "sapoipe8.ocx", "sapoipss.ocx", "sapoipw8.ocx", "sapoptio.ocx", "sappcfvd.dll", "sappctxt.dll", "sapqtab.ocx", "SapROTWr.dll", "saprtf.ocx", "saprules.xml", "sapsbar.ocx", "sapsdcc.ocx", "sapsel.ocx", "SapSettings.ocx", "SapSettingsShow.exe", "sapshcut.exe", "sapshlib.dll", "SAPSign.ocx", "sapslide.ocx", "sapsplit.ocx", "sapstage.ocx", "saptabcn.ocx", "SAPTablePainter.dll", "saptbar.ocx", "sapthmcust.dll", "sapthmdrw.dll", "saptoolb.dll", "saptrace.dll", "sapvq.ocx", "sapvqlib.dll", "sapwdtaocx.ocx", "sapwdzip.dll", "sapwin.dll", "sapwnt.dll", "sautplg.dll", "sautplg.xml", "Scheduler.jar", "SIJAB.exe", "SIJABclient.dll", "ssfrfc.exe", "ssfrfc.ini", "swcomctl.ocx", "swcomfcs.dll", "swinbitm.txt", "swohdoc.dll", "swohgen.dll", "swohidef.dll", "swohppt.dll", "swohvsd.dll", "swohxml.dll", "swohxmlppt.dll", "swutils.dll", "swutils.ini", "sxadpaut.dll", "sxadpepi.dll", "symsrv.dll", "TestFixtures.dll", "textedit.dll", "vcprct32.dll", "vcsced32.dll", "vctbed32.dll", "vcwin32.dll", "viscarri.ocx", "vistransmitter.ocx", "visualiz.exe", "visu_se.exe", "WCRContainer.dll", "wdbdadpt.ocx", "wdbdadptjoin.ocx", "wdkcalex.dll", "wdkCBase.dll", "wdkCFile.dll", "wdkcol.dll", "wdkCR3.dll", "wdkICCon.dll", "wdkSyCM.dll", "wdkSyPro.dll", "wdkSySrv.dll", "wdobapi.ocx", "wdobapiU.ocx", "wdpddmac.doc", "wdpddmac.ver", "wdpddmac.xls", "wdpddm_e.doc", "wdtaocx.ocx", "wdtaocxU.ocx", "wdtfuncs.ocx", "wdtfuncU.ocx", "wdtlogU.ocx", "wdtmctrl.ocx", "wdtmlgnd.ocx", "wdtrmenu.ocx", "wdttree.ocx", "XMLAdaptorDef.dll"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\ab4_data",
+        "dir": [],
+        "file": ["AB4Editor.css", "abap.pad", "abap4_spec.xml", "abap4_user.xml", "abap_spec.xml", "abap_user.xml", "acont_spec.xml", "acont_user.xml", "acorrect.xml", "acorrect.xslt", "ams_spec.xml", "ams_user.xml", "bsp_spec.xml", "bsp_user.xml", "cc_spec.xml", "cc_user.xml", "covan_spec.xml", "covan_user.xml", "demo.gif", "ecatt_spec.xml", "ecatt_user.xml", "gml_spec.xml", "gml_user.xml", "javadebug_spec.xml", "javadebug_user.xml", "keymap.xml", "keymap.xslt", "lang_spec.xslt", "lang_user.xslt", "logo.jpg", "point.gif", "qstart.htm", "settings.xml", "settings.xslt", "sfotl_spec.xml", "sfotl_user.xml", "sqlsc_spec.xml", "sqlsc_user.xml", "txt_spec.xml", "txt_user.xml", "version.bin", "xml_spec.xml", "xml_user.xml"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\bitmap",
+        "dir": [],
+        "file": ["gxvaactv.bmp", "gxvaback.bmp", "gxvacase.bmp", "gxvaclps.bmp", "gxvacntn.bmp", "gxvactrl.bmp", "gxvadcsn.bmp", "gxvadsel.bmp", "gxvaexpd.bmp", "gxvaexte.bmp", "gxvafork.bmp", "gxvaifif.bmp", "gxvainte.bmp", "gxvalogo.gmf", "gxvamaxi.bmp", "gxvamini.bmp", "gxvasap1.gmf", "gxvasap2.gmf", "gxvasel.bmp", "gxvashut.bmp", "gxvatrig.bmp", "gxvaundf.bmp", "gxvaunti.bmp", "gxvawait.bmp", "gxvawhil.bmp", "l_b_abpl.bmp", "l_b_acti.bmp", "l_b_akti.bmp", "l_b_anch.bmp", "l_b_anno.bmp", "l_b_bedi.bmp", "l_b_bent.bmp", "l_b_bwis.bmp", "l_b_bwiu.bmp", "l_b_bwra.bmp", "l_b_bwru.bmp", "l_b_bwse.bmp", "l_b_bwsf.bmp", "l_b_bwsg.bmp", "l_b_bwsr.bmp", "l_b_chck.bmp", "l_b_cont.bmp", "l_b_cost.bmp", "l_b_dele.bmp", "l_b_detl.bmp", "l_b_docu.bmp", "l_b_erei.bmp", "l_b_erin.bmp", "l_b_erte.bmp", "l_b_filt.bmp", "l_b_form.bmp", "l_b_graf.bmp", "l_b_icon.bmp", "l_b_list.bmp", "l_b_matl.bmp", "l_b_mbed.bmp", "l_b_move.bmp", "l_b_mrka.bmp", "l_b_mrkd.bmp", "l_b_netg.bmp", "l_b_nxti.bmp", "l_b_nxtn.bmp", "l_b_odsa.bmp", "l_b_odsi.bmp", "l_b_okay.bmp", "l_b_okye.bmp", "l_b_oviw.bmp", "l_b_pabs.bmp", "l_b_paus.bmp", "l_b_pein.bmp", "l_b_peri.bmp", "l_b_plan.bmp", "l_b_plnt.bmp", "l_b_prvi.bmp", "l_b_quer.bmp", "l_b_refr.bmp", "l_b_rkhi.bmp", "l_b_sere.bmp", "l_b_slis.bmp", "l_b_sndn.bmp", "l_b_srtu.bmp", "l_b_steu.bmp", "l_b_summ.bmp", "l_b_tree.bmp", "l_b_trst.bmp", "l_b_unbe.bmp", "l_b_unti.bmp", "l_b_were.bmp", "l_b_whil.bmp", "l_b_wopa.bmp", "l_b_work.bmp", "l_b_zoin.bmp", "l_b_zout.bmp", "l_f_pasl.bmp", "l_f_undo.bmp", "l_f_user.bmp", "l_m_crit.bmp", "l_s_chaa.bmp", "l_s_chai.bmp", "l_s_erro.bmp", "l_s_hiac.bmp", "l_s_hiin.bmp", "l_s_mdac.bmp", "l_s_mdin.bmp", "l_s_moac.bmp", "l_s_moin.bmp", "l_s_tl_g.bmp", "l_s_tl_r.bmp", "l_s_tl_y.bmp", "l_s_txac.bmp", "l_s_txin.bmp", "l_t_mail.bmp", "l_t_time.bmp", "l_webflo.bmp", "l_wfdoku.bmp", "l_wfjoin.bmp", "l_wfproc.bmp", "s_bwinci.bmp", "s_bwssow.bmp", "s_b_akti.bmp", "s_b_bedi.bmp", "s_b_bent.bmp", "s_b_bwis.bmp", "s_b_bwiu.bmp", "s_b_bwra.bmp", "s_b_bwru.bmp", "s_b_bwse.bmp", "s_b_bwsf.bmp", "s_b_bwsg.bmp", "s_b_bwsr.bmp", "s_b_cont.bmp", "s_b_erei.bmp", "s_b_erin.bmp", "s_b_mbed.bmp", "s_b_odsa.bmp", "s_b_odsi.bmp", "s_b_pabs.bmp", "s_b_sere.bmp", "s_b_steu.bmp", "s_b_trst.bmp", "s_b_unbe.bmp", "s_b_unti.bmp", "s_b_were.bmp", "s_b_whil.bmp", "s_datama.bmp", "s_s_chaa.bmp", "s_s_chai.bmp", "s_s_hiac.bmp", "s_s_hiin.bmp", "s_s_mdac.bmp", "s_s_mdin.bmp", "s_s_moac.bmp", "s_s_moin.bmp", "s_s_txac.bmp", "s_s_txin.bmp"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\calsync",
+        "dir": ["bin"],
+        "file": []
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\calsync\\bin",
+        "dir": [],
+        "file": ["calsync.avi", "calsyncd.htm", "calsynce.htm", "image649.gif", "image661.gif", "image663.gif", "image665.gif", "image672.gif", "image673.gif", "image674.gif", "image675.gif", "sapcalex.ecf", "wdkSyCl.exe"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\dat",
+        "dir": [],
+        "file": ["euspdynd.dat", "euspdyne.dat", "gxba.dat", "gxbf.dat", "gxbi.dat", "gxbm.dat", "gxbu.dat", "gxdl.dat", "gxga.dat", "gxhi.dat", "gxho.dat", "gxhp.dat", "gxms.dat", "gxne.dat", "gxpo.dat", "gxsc.dat", "gxst.dat", "gxsu.dat", "gxxl.dat"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\DtsCOMFramework",
+        "dir": [],
+        "file": ["DtsCOMFramework.dll", "Interop.MSXML2.dll", "Interop.SAPFEWSELib.dll"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\eccs",
+        "dir": [],
+        "file": ["cs2003_46.mdb"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\eis",
+        "dir": [],
+        "file": ["read_eng.txt", "read_me.txt", "sap_rep.dot", "sap_rep7.dot", "sap_rep8.dot"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\etc",
+        "dir": ["acknowledgements", "certs", "PDFL_Resources", "PLMIntegration"],
+        "file": ["build.txt", "copyright.txt", "EXPORTERS_Full.INI", "EXPORTERS_Lightweight.INI", "InstallNotes.txt", "Lc_ctype.ini", "migrated_versions.txt", "n021023l.ttf", "patch_log.txt", "proxy-prelude.js", "PRVIntoPart.xsl"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\etc\\acknowledgements",
+        "dir": [],
+        "file": ["attributionsSLC.txt", "cg_license.txt", "FreeType_license.txt", "FTGL_license.txt", "HDR_license.txt", "infozip_license.txt", "jasper_license.txt", "javascript_license.txt", "jpeg_license.txt", "OpenEXR_license.txt", "open_ssl_license.txt", "png_license.txt", "tiff_license.txt", "xalan_license.txt", "xerces_license.txt", "Zlib_license.txt"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\etc\\certs",
+        "dir": [],
+        "file": ["A-CERT_ADVANCED.pem", "A-Trust-nQual-03.pem", "A-Trust-Qual-01.pem", "A-Trust-Qual-02.pem", "AddTrustExternalCARoot.pem", "Agence_Nationale_de_Certification_Electronique.pem", "Agence_Nationale_de_Certification_Electronique__1_.pem", "Agencia_Catalana_de_Certificacio__NIF_Q-0801176-I_.pem", "America_Online_Root_Certification_Authority_1.pem", "America_Online_Root_Certification_Authority_2.pem", "ANCERT_Certificados_CGN.pem", "ANCERT_Certificados_Notariales.pem", "ANCERT_Corporaciones_de_Derecho_Publico.pem", "Austrian_Society_for_Data_Protection.pem", "Austrian_Society_for_Data_Protection_GLOBALTRUST_Certification_Service.pem", "Autoridade_Certificadora_Raiz_Brasileira.pem", "Autoridad_Certificadora_del_Colegio_Nacional_de_Correduria_Publica_Mexicana_A.C.pem", "Autoridad_Certificadora_de_la_Asociacion_Nacional_del_Notariado_.pem", "Autoridad_Certificadora_Raiz_de_la_Secretaria_de_Economia.pem", "Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem", "Baltimore_CyberTrust_Root.pem", "Belgacom_E-Trust_Primary_CA.pem", "Belgacom_E-Trust_Root_CA_for_Normalised_Certificates.pem", "Belgacom_E-Trust_Root_CA_for_Qualified_Certificates.pem", "C1_PCA_G3v2.pem", "C2_PCA_G3v2.pem", "C3_PCA_G3v2.pem", "C4_PCA_G3v2.pem", "CAcert_eai.pem", "CAcert_plm.pem", "CAcert_ugs.pem", "CC_Signet_RootCA.pem", "CERTICAMARA_S.A..pem", "Certicamara_S.A.pem", "Certipost_E-Trust_Primary_Normalised_CA.pem", "Certipost_E-Trust_Primary_Qualified_CA.pem", "Certipost_E-Trust_Primary_TOP_Root_CA.pem", "Certisign_Autoridade_Certificadora_AC1S.pem", "Certisign_Autoridade_Certificadora_AC2.pem", "Certisign_Autoridade_Certificadora_AC3S.pem", "Certisign_Autoridade_Certificadora_AC4.pem", "CertPlus_Class_1_Primary_CA.pem", "CertPlus_Class_2_Primary_CA.pem", "CertPlus_Class_3P_Primary_CA.pem", "CertPlus_Class_3TS_Primary_CA.pem", "CertPlus_Class_3_Primary_CA.pem", "CertRSA01.pem", "Certum.pem", "Chambersign_Chambers_of_Commerce_Root.pem", "Chambersign_Global_Root.pem", "Chambersign_Public_Notary_Root.pem", "COMODO.pem", "Comodo_AAA_Certificate_Services.pem", "Comodo_Secure_Certificate_Services.pem", "Comodo_Trusted_Certificate_Services.pem", "ComSign_Advanced_Security_CA.pem", "ComSign_CA.pem", "ComSign_Secured_CA.pem", "CW_HKT_SecureNet_CA_Class_A.pem", "CW_HKT_SecureNet_CA_Class_B.pem", "CW_HKT_SecureNet_CA_Root.pem", "CW_HKT_SecureNet_CA_SGC_Root.pem", "Cybertrust_Global_Root.pem", "Deutsche_Telekom_Root_CA_1.pem", "Deutsche_Telekom_Root_CA_2.pem", "DigiCert.pem", "DigiCert__6_.pem", "DigiCert__7_.pem", "DigiNotar_Root_CA.pem", "DIRECCION_GENERAL_DE_LA_POLICIA.pem", "DST-Entrust_GTI_CA.pem", "DSTCA_E1.pem", "DSTCA_E2.pem", "DST_ACES_CA_X6.pem", "DST_RootCA_X1.pem", "DST_RootCA_X2.pem", "DST_Root_CA_X3.pem", "DST__ABA.ECOM__CA.pem", "DST__ANX_Network__CA.pem", "DST__Baltimore_EZ__CA.pem", "DST__National_Retail_Federation__RootCA.pem", "DST__United_Parcel_Service__RootCA.pem", "Echoworx_Root_CA2.pem", "Entrust.net_Certification_Authority__2048_.pem", "Entrust.net_Client_Certification_Authority.pem", "Entrust.net_Global_Client_Certification_Authority.pem", "Entrust.net_Global_Secure_Server_Certification_Authority.pem", "Entrust.net_Secure_Server_Certification_Authority.pem", "Entrust_Root_Certification_Authority.pem", "Equifax_Secure_Certificate_Authority.pem", "Equifax_Secure_eBusiness_CA-1.pem", "Equifax_Secure_eBusiness_CA-2.pem", "Equifax_Secure_Global_eBusiness_CA-1.pem", "eSign_Australia__eSign_Imperito_Primary_Root_CA.pem", "eSign_Australia__Gatekeeper_Root_CA.pem", "eSign_Australia__Primary_Utility_Root_CA.pem", "EUnet_International_Root_CA.pem", "eviscert.pem", "Fabrica_Nacional_de_Moneda_y_Timbre.pem", "First_Data_Digital_Certificates_Inc._Certification_Authority.pem", "GeoTrust_Global_CA.pem", "GeoTrust_Global_CA_2.pem", "GeoTrust_Universal_CA.pem", "GeoTrust_Universal_CA_2.pem", "GeoTrust__8_.pem", "GlobalSign.pem", "GlobalSign_Root_CA.pem", "Go_Daddy_Class_2_Certification_Authority.pem", "GTE_CyberTrust_Global_Root.pem", "GTE_CyberTrust_Root__1_.pem", "Hongkong_Post_Root_CA.pem", "Hongkong_Post_Root_CA_1.pem", "IPS_SERVIDORES.pem", "IZENPE_S.A..pem", "Japanese_Government_MPHPT_Certification_Authority.pem", "Japan_Certification_Services_Inc._SecureSign_RootCA1.pem", "Japan_Certification_Services_Inc._SecureSign_RootCA2.pem", "Japan_Certification_Services_Inc._SecureSign_RootCA3.pem", "Japan_Local_Government_PKI_Application_CA.pem", "Juur-SK_AS_Sertifitseerimiskeskus.pem", "KeyMail_PTT_Post_Root_CA.pem", "KISA_RootCA_1.pem", "KISA_RootCA_3.pem", "KMD-CA_K_Person.pem", "KMD-CA_Root.pem", "KMD-CA_Server.pem", "Microsec_e-Szigno_Root_CA.pem", "Microsoft_Root_Authority.pem", "Microsoft_Root_Certificate_Authority.pem", "NetLock_Expressz__Class_C__Tanusitvanykiado.pem", "NetLock_Kozjegyzoi__Class_A__Tanusitvanykiado.pem", "NetLock_Minositett_Kozjegyzoi__Class_QA__Tanusitvanykiado.pem", "NetLock_Uzleti__Class_B__Tanusitvanykiado.pem", "Network_Solutions.pem", "OISTE_WISeKey_Global_Root_GA_CA.pem", "Post.Trust_Root_CA.pem", "QuoVadis_Root_CA_2.pem", "QuoVadis_Root_CA_3.pem", "QuoVadis_Root_Certification_Authority.pem", "RSA_Security_2048_V3.pem", "S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.pem", "Saunalahden_Serveri_CA.pem", "Saunalahden_Serveri_CA_.pem", "Secretariat_General_de_la_Defense_Nationale.pem", "SecureNet_CA_Class_A.pem", "SecureNet_CA_Class_B.pem", "SecureNet_CA_Root.pem", "SecureNet_CA_SGC_Root.pem", "SecureTrust_Corporation.pem", "SecureTrust_Corporation__12_.pem", "Security_Communication_RootCA1.pem", "Serasa_Certificate_Authority_I.pem", "Serasa_Certificate_Authority_II.pem", "Serasa_Certificate_Authority_III.pem", "SERVICIOS_DE_CERTIFICACION_-_A.N.C..pem", "Societa_Interbancaria_per_lAutomazione_SIA_Secure_Client_CA.pem", "Societa_Interbancaria_per_lAutomazione_SIA_Secure_Server_CA.pem", "Sonera_Class1_CA.pem", "Sonera_Class2_CA.pem", "Spanish_Property_and_Commerce_Registry_CA.pem", "sslComodoC3.pem", "Staat_der_Nederlanden_Root_CA.pem", "Starfield_Class_2_Certification_Authority.pem", "Swisscom_Root_CA_1.pem", "SwissSign_Gold_G2_Root_CA.pem", "SwissSign_Platinum_G2_Root_CA.pem", "SwissSign_Silver_G2_Root_CA.pem", "TC_TrustCenter_Class_1_CA.pem", "TC_TrustCenter_Class_2_CA.pem", "TC_TrustCenter_Class_2_CA_II.pem", "TC_TrustCenter_Class_3_CA.pem", "TC_TrustCenter_Class_3_CA_II.pem", "TC_TrustCenter_Class_4_CA.pem", "TC_TrustCenter_Class_4_CA_II.pem", "TC_TrustCenter_Time_Stamping_CA.pem", "TC_TrustCenter_Universal_CA_I.pem", "TC_TrustCenter_Universal_CA_II.pem", "TDC_Internet_Root_CA.pem", "TDC_OCES_CA.pem", "Thawte_Personal_Basic_CA.pem", "Thawte_Personal_Freemail_CA.pem", "Thawte_Personal_Premium_CA.pem", "Thawte_Premium_Server_CA.pem", "Thawte_Server_CA.pem", "Thawte_Timestamping_CA.pem", "thawte__16_.pem", "Trustis_EVS_Root_CA.pem", "Trustis_FPS_Root_CA.pem", "TURKTRUST_Elektronik_Islem_Hizmetleri.pem", "TURKTRUST_Elektronik_Islem_Hizmetleri__19_.pem", "TURKTRUST_Elektronik_Sertifika_Hizmet_Saglayicisi.pem", "TURKTRUST_Elektronik_Sertifika_Hizmet_Saglayicisi__20_.pem", "TW_Government_Root_Certification_Authority.pem", "U.S._Government_FBCA.pem", "UTN_-_DATACorp_SGC.pem", "UTN_-_USERFirst-Client_Authentication_and_Email.pem", "UTN_-_USERFirst-Hardware.pem", "UTN_-_USERFirst-Network_Applications.pem", "UTN_-_USERFirst-Object.pem", "ValiCert_Class_1_Policy_Validation_Authority.pem", "ValiCert_Class_2_Policy_Validation_Authority.pem", "ValiCert_Class_3_Policy_Validation_Authority.pem", "VeriSignIntCA.pem", "VeriSign_Class_1_Primary_CA.pem", "VeriSign_Class_1_Primary_CA__10_.pem", "VeriSign_Class_1_Primary_CA__8_.pem", "VeriSign_Class_1_Public_Primary_CA.pem", "VeriSign_Class_2_Primary_CA__4_.pem", "VeriSign_Class_2_Primary_CA__5_.pem", "VeriSign_Class_2_Public_Primary_CA.pem", "VeriSign_Class_3_Primary_CA__6_.pem", "VeriSign_Class_3_Primary_CA__7_.pem", "VeriSign_Class_3_Public_Primary_CA.pem", "VeriSign_Class_4_Primary_CA.pem", "VeriSign_Class_4_Primary_CA__9_.pem", "VeriSign_RSA_Secure_Server_CA.pem", "VeriSign_TSA_CA.pem", "VeriSign__24_.pem", "ViaCode_Certification_Authority.pem", "Visa_eCommerce_Root.pem", "Wells_Fargo_Root_Certificate_Authority.pem", "Xpemt_EZ_by_DST.pem", "XRamp_Global_Certification_Authority.pem"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\etc\\PDFL_Resources",
+        "dir": ["CMap", "Font", "Unicode"],
+        "file": []
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\etc\\PDFL_Resources\\CMap",
+        "dir": [],
+        "file": ["78-EUC-H", "78-EUC-V", "78-H", "78-RKSJ-H", "78-RKSJ-V", "78-V", "78ms-RKSJ-H", "78ms-RKSJ-V", "83pv-RKSJ-H", "90ms-RKSJ-H", "90ms-RKSJ-UCS2", "90ms-RKSJ-V", "90msp-RKSJ-H", "90msp-RKSJ-V", "90pv-RKSJ-H", "90pv-RKSJ-UCS2", "90pv-RKSJ-UCS2C", "90pv-RKSJ-V", "Add-H", "Add-RKSJ-H", "Add-RKSJ-V", "Add-V", "Adobe-CNS1-0", "Adobe-CNS1-1", "Adobe-CNS1-2", "Adobe-CNS1-3", "Adobe-CNS1-4", "Adobe-CNS1-B5pc", "Adobe-CNS1-ETen-B5", "Adobe-CNS1-H-CID", "Adobe-CNS1-H-Host", "Adobe-CNS1-H-Mac", "Adobe-CNS1-UCS2", "Adobe-GB1-0", "Adobe-GB1-1", "Adobe-GB1-2", "Adobe-GB1-3", "Adobe-GB1-4", "Adobe-GB1-GBK-EUC", "Adobe-GB1-GBpc-EUC", "Adobe-GB1-H-CID", "Adobe-GB1-H-Host", "Adobe-GB1-H-Mac", "Adobe-GB1-UCS2", "Adobe-Japan1-0", "Adobe-Japan1-1", "Adobe-Japan1-2", "Adobe-Japan1-3", "Adobe-Japan1-4", "Adobe-Japan1-5", "Adobe-Japan1-6", "Adobe-Japan1-90ms-RKSJ", "Adobe-Japan1-90pv-RKSJ", "Adobe-Japan1-H-CID", "Adobe-Japan1-H-Host", "Adobe-Japan1-H-Mac", "Adobe-Japan1-PS-H", "Adobe-Japan1-PS-V", "Adobe-Japan1-UCS2", "Adobe-Japan2-0", "Adobe-Korea1-0", "Adobe-Korea1-1", "Adobe-Korea1-2", "Adobe-Korea1-H-CID", "Adobe-Korea1-H-Host", "Adobe-Korea1-H-Mac", "Adobe-Korea1-KSCms-UHC", "Adobe-Korea1-KSCpc-EUC", "Adobe-Korea1-UCS2", "AdobeFnt09.lst", "B5-H", "B5-V", "B5pc-H", "B5pc-UCS2", "B5pc-UCS2C", "B5pc-V", "CNS-EUC-H", "CNS-EUC-V", "CNS1-H", "CNS1-V", "CNS2-H", "CNS2-V", "ETen-B5-H", "ETen-B5-UCS2", "ETen-B5-V", "ETenms-B5-H", "ETenms-B5-V", "ETHK-B5-H", "ETHK-B5-V", "EUC-H", "EUC-V", "Ext-H", "Ext-RKSJ-H", "Ext-RKSJ-V", "Ext-V", "GB-EUC-H", "GB-EUC-V", "GB-H", "GB-V", "GBK-EUC-H", "GBK-EUC-UCS2", "GBK-EUC-V", "GBK2K-H", "GBK2K-V", "GBKp-EUC-H", "GBKp-EUC-V", "GBpc-EUC-H", "GBpc-EUC-UCS2", "GBpc-EUC-UCS2C", "GBpc-EUC-V", "GBT-EUC-H", "GBT-EUC-V", "GBT-H", "GBT-V", "GBTpc-EUC-H", "GBTpc-EUC-V", "H", "Hankaku", "Hiragana", "HKdla-B5-H", "HKdla-B5-V", "HKdlb-B5-H", "HKdlb-B5-V", "HKgccs-B5-H", "HKgccs-B5-V", "HKm314-B5-H", "HKm314-B5-V", "HKm471-B5-H", "HKm471-B5-V", "HKscs-B5-H", "HKscs-B5-V", "Hojo-EUC-H", "Hojo-EUC-V", "Hojo-H", "Hojo-V", "Identity-H", "Identity-V", "Katakana", "KSC-EUC-H", "KSC-EUC-V", "KSC-H", "KSC-Johab-H", "KSC-Johab-V", "KSC-V", "KSCms-UHC-H", "KSCms-UHC-HW-H", "KSCms-UHC-HW-V", "KSCms-UHC-UCS2", "KSCms-UHC-V", "KSCpc-EUC-H", "KSCpc-EUC-UCS2", "KSCpc-EUC-UCS2C", "KSCpc-EUC-V", "NWP-H", "NWP-V", "RKSJ-H", "RKSJ-V", "Roman", "UCS2-90ms-RKSJ", "UCS2-90pv-RKSJ", "UCS2-B5pc", "UCS2-ETen-B5", "UCS2-GBK-EUC", "UCS2-GBpc-EUC", "UCS2-KSCms-UHC", "UCS2-KSCpc-EUC", "UniCNS-UCS2-H", "UniCNS-UCS2-V", "UniCNS-UTF16-H", "UniCNS-UTF16-V", "UniCNS-UTF32-H", "UniCNS-UTF32-V", "UniCNS-UTF8-H", "UniCNS-UTF8-V", "UniGB-UCS2-H", "UniGB-UCS2-V", "UniGB-UTF16-H", "UniGB-UTF16-V", "UniGB-UTF32-H", "UniGB-UTF32-V", "UniGB-UTF8-H", "UniGB-UTF8-V", "UniHojo-UCS2-H", "UniHojo-UCS2-V", "UniHojo-UTF16-H", "UniHojo-UTF16-V", "UniHojo-UTF32-H", "UniHojo-UTF32-V", "UniHojo-UTF8-H", "UniHojo-UTF8-V", "UniJIS-UCS2-H", "UniJIS-UCS2-HW-H", "UniJIS-UCS2-HW-V", "UniJIS-UCS2-V", "UniJIS-UTF16-H", "UniJIS-UTF16-V", "UniJIS-UTF32-H", "UniJIS-UTF32-V", "UniJIS-UTF8-H", "UniJIS-UTF8-V", "UniJISPro-UCS2-HW-V", "UniJISPro-UCS2-V", "UniJISPro-UTF8-V", "UniJISX0213-UTF32-H", "UniJISX0213-UTF32-V", "UniKS-UCS2-H", "UniKS-UCS2-V", "UniKS-UTF16-H", "UniKS-UTF16-V", "UniKS-UTF32-H", "UniKS-UTF32-V", "UniKS-UTF8-H", "UniKS-UTF8-V", "V", "WP-Symbol"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\etc\\PDFL_Resources\\Font",
+        "dir": [],
+        "file": ["AdobeMingStd-Light.otf", "AdobeMyungjoStd-Medium.otf", "AdobePiStd.otf", "AdobeSongStd-Light.otf", "CourierStd-Bold.otf", "CourierStd-BoldOblique.otf", "CourierStd-Oblique.otf", "CourierStd.otf", "KozGoPro-Medium.otf", "KozMinProVI-Regular.otf", "sy______.pfb", "sy______.pfm", "zx______.mmm", "zx______.pfb", "zx______.pfm", "zy______.mmm", "zy______.pfb", "zy______.pfm"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\etc\\PDFL_Resources\\Unicode",
+        "dir": ["ICU", "Mappings"],
+        "file": []
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\etc\\PDFL_Resources\\Unicode\\ICU",
+        "dir": [],
+        "file": ["ctl_gb18030.cnv", "icudt26l.dat"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\etc\\PDFL_Resources\\Unicode\\Mappings",
+        "dir": ["Adobe", "Mac", "Win"],
+        "file": []
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\etc\\PDFL_Resources\\Unicode\\Mappings\\Adobe",
+        "dir": [],
+        "file": ["HKSCS.txt", "Japanese83pv.txt", "JISX0208.txt", "JISX0213.txt", "readme.txt", "stdenc.txt", "symbol.txt", "zdingbat.txt"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\etc\\PDFL_Resources\\Unicode\\Mappings\\Mac",
+        "dir": [],
+        "file": ["ARABIC.TXT", "CENTEURO.TXT", "CHINSIMP.TXT", "CHINTRAD.TXT", "CORPCHAR.TXT", "CROATIAN.TXT", "CYRILLIC.TXT", "DEVANAGA.TXT", "DINGBATS.TXT", "FARSI.TXT", "GREEK.TXT", "GUJARATI.TXT", "GURMUKHI.TXT", "HEBREW.TXT", "ICELAND.TXT", "JAPANESE.TXT", "KOREAN.TXT", "README.TXT", "ROMAN.TXT", "ROMANIAN.TXT", "SYMBOL.TXT", "THAI.TXT", "TURKISH.TXT", "UKRAINE.TXT"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\etc\\PDFL_Resources\\Unicode\\Mappings\\Win",
+        "dir": [],
+        "file": ["CP1250.TXT", "CP1251.TXT", "CP1252.TXT", "CP1253.TXT", "CP1254.TXT", "CP1255.TXT", "CP1256.TXT", "CP1257.TXT", "CP1258.TXT", "CP874.TXT", "CP932.TXT", "CP936.TXT", "CP949.TXT", "CP950.TXT"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\etc\\PLMIntegration",
+        "dir": [],
+        "file": ["TcViewer_localeMap.txt", "TcViewer_properties.txt", "TcViewer_PropertyPolicy.xml"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\filc",
+        "dir": [],
+        "file": ["filc2003.mdb"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\fonts",
+        "dir": [],
+        "file": ["arimonbd.ttf", "arimon__.ttf", "sapdn.ttf", "sapin.ttf"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\GMD",
+        "dir": ["MAPS"],
+        "file": ["DRPNET.EXE"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\GMD\\MAPS",
+        "dir": [],
+        "file": ["AUSTRALA.EMF", "EUROPE.EMF", "FRANCE.EMF", "GERMANY.EMF", "ITALY.EMF", "SPAIN.EMF", "UKMAP.EMF", "USA.EMF", "USA1.EMF", "USA11.EMF", "USA12.EMF", "USA4.EMF", "USA5.EMF", "USA6.EMF", "WORLD.EMF"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\HTMLHELP",
+        "dir": [],
+        "file": ["shh.exe"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\InterActiveXL",
+        "dir": [],
+        "file": ["DigitalSignature.ocx", "SAPActiveXL.xlt", "SAPActiveXL_nosig.xlt", "sapconsaccess.dll", "sapconsr3.dll", "sapxlhelper.dll"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\lang",
+        "dir": [],
+        "file": ["Ab4editAR.txt", "Ab4editBG.txt", "Ab4editCA.txt", "Ab4editcs.txt", "Ab4editda.txt", "Ab4editde.txt", "Ab4editEL.txt", "Ab4editen.txt", "Ab4edites.txt", "Ab4editet.txt", "Ab4editfi.txt", "Ab4editfr.txt", "Ab4editHE.txt", "Ab4editHR.txt", "Ab4edithu.txt", "Ab4editit.txt", "Ab4editja.txt", "Ab4editko.txt", "Ab4editlt.txt", "Ab4editlv.txt", "Ab4editnl.txt", "Ab4editno.txt", "Ab4editpl.txt", "Ab4editpt.txt", "Ab4editro.txt", "Ab4editru.txt", "Ab4editSH.txt", "Ab4editsk.txt", "Ab4editSL.txt", "Ab4editsv.txt", "Ab4editth.txt", "Ab4editTR.txt", "Ab4editUK.txt", "Ab4editzf.txt", "Ab4editzh.txt", "chartAR.txt", "chartbg.txt", "chartca.txt", "chartcs.txt", "chartda.txt", "chartde.txt", "chartel.txt", "charten.txt", "chartes.txt", "chartet.txt", "chartfi.txt", "chartfr.txt", "chartHE.txt", "charthr.txt", "charthu.txt", "chartit.txt", "chartja.txt", "chartko.txt", "chartlt.txt", "chartlv.txt", "chartnl.txt", "chartno.txt", "chartpl.txt", "chartpt.txt", "chartro.txt", "chartru.txt", "chartSH.txt", "chartsk.txt", "chartsl.txt", "chartsv.txt", "chartth.txt", "charttr.txt", "chartUK.txt", "chartzf.txt", "chartzh.txt", "comniAR.txt", "comniBG.txt", "comnica.txt", "comnics.txt", "comnida.txt", "comnide.txt", "comniEL.txt", "comnien.txt", "comnies.txt", "comniet.txt", "comnifi.txt", "comnifr.txt", "comniHE.txt", "comniHR.txt", "comnihu.txt", "comniit.txt", "comnija.txt", "comniko.txt", "comnilt.txt", "comnilv.txt", "comninl.txt", "comnino.txt", "comnipl.txt", "comnipt.txt", "comniro.txt", "comniru.txt", "comniSH.txt", "comnisk.txt", "comniSL.txt", "comnisv.txt", "comnith.txt", "comniTR.txt", "comniUK.txt", "comnizf.txt", "comnizh.txt", "cpmapAR.txt", "cpmapBG.txt", "cpmapCA.txt", "cpmapCS.txt", "cpmapDA.txt", "cpmapDE.txt", "cpmapEL.txt", "cpmapEN.txt", "cpmapES.txt", "cpmapET.txt", "cpmapFI.txt", "cpmapFR.txt", "cpmapHE.txt", "cpmapHR.txt", "cpmapHU.txt", "cpmapIT.txt", "cpmapJA.txt", "cpmapKO.txt", "cpmapLT.txt", "cpmapLV.txt", "cpmapNL.txt", "cpmapNO.txt", "cpmapPL.txt", "cpmapPT.txt", "cpmapRO.txt", "cpmapRU.txt", "cpmapSH.txt", "cpmapSK.txt", "cpmapSL.txt", "cpmapSV.txt", "cpmapTH.txt", "cpmapTR.txt", "cpmapUK.txt", "cpmapZF.txt", "cpmapZH.txt", "fcplAR.txt", "fcplBG.txt", "fcplca.txt", "fcplcs.txt", "fcplda.txt", "fcplde.txt", "fcplEL.txt", "fcplen.txt", "fcples.txt", "fcplet.txt", "fcplfi.txt", "fcplfr.txt", "fcplHE.txt", "fcplHR.txt", "fcplhu.txt", "fcplit.txt", "fcplja.txt", "fcplko.txt", "fcpllt.txt", "fcpllv.txt", "fcplnl.txt", "fcplno.txt", "fcplpl.txt", "fcplpt.txt", "fcplro.txt", "fcplru.txt", "fcplSH.txt", "fcplsk.txt", "fcplSL.txt", "fcplsv.txt", "fcplth.txt", "fcplTR.txt", "fcplUK.txt", "fcplzf.txt", "fcplzh.txt", "fcustAR.txt", "fcustBG.txt", "fcustca.txt", "fcustcs.txt", "fcustda.txt", "fcustde.txt", "fcustEL.txt", "fcusten.txt", "fcustes.txt", "fcustet.txt", "fcustfi.txt", "fcustfr.txt", "fcustHE.txt", "fcustHR.txt", "fcusthu.txt", "fcustit.txt", "fcustja.txt", "fcustko.txt", "fcustlt.txt", "fcustlv.txt", "fcustnl.txt", "fcustno.txt", "fcustpl.txt", "fcustpt.txt", "fcustro.txt", "fcustru.txt", "fcustSH.txt", "fcustsk.txt", "fcustSL.txt", "fcustsv.txt", "fcustth.txt", "fcustTR.txt", "fcustUK.txt", "fcustzf.txt", "fcustzh.txt", "fesecAR.txt", "fesecBG.txt", "fesecca.txt", "feseccs.txt", "fesecda.txt", "fesecde.txt", "fesecEL.txt", "fesecen.txt", "feseces.txt", "fesecet.txt", "fesecfi.txt", "fesecfr.txt", "fesecHE.txt", "fesecHR.txt", "fesechu.txt", "fesecit.txt", "fesecja.txt", "fesecko.txt", "feseclt.txt", "feseclv.txt", "fesecnl.txt", "fesecno.txt", "fesecpl.txt", "fesecpt.txt", "fesecro.txt", "fesecru.txt", "fesecSH.txt", "fesecsk.txt", "fesecSL.txt", "fesecsv.txt", "fesecth.txt", "fesecTR.txt", "fesecUK.txt", "feseczf.txt", "feseczh.txt", "frontAR.txt", "frontBG.txt", "frontCA.txt", "frontcs.txt", "frontda.txt", "frontde.txt", "frontEL.txt", "fronten.txt", "frontes.txt", "frontet.txt", "frontfi.txt", "frontfr.txt", "frontHE.txt", "frontHR.txt", "fronthu.txt", "frontit.txt", "frontja.txt", "frontko.txt", "frontlt.txt", "frontlv.txt", "frontnl.txt", "frontno.txt", "frontpl.txt", "frontpt.txt", "frontro.txt", "frontru.txt", "frontSH.txt", "frontsk.txt", "frontSL.txt", "frontsv.txt", "frontth.txt", "frontTR.txt", "frontUK.txt", "frontzf.txt", "frontzh.txt", "FROPTAR.txt", "FROPTBG.txt", "FROPTca.txt", "FROPTcs.txt", "FROPTda.txt", "FROPTde.txt", "FROPTEL.txt", "FROPTen.txt", "FROPTes.txt", "FROPTet.txt", "FROPTfi.txt", "FROPTfr.txt", "FROPTHE.txt", "FROPTHR.txt", "FROPThu.txt", "FROPTit.txt", "FROPTja.txt", "FROPTko.txt", "FROPTlt.txt", "FROPTlv.txt", "FROPTnl.txt", "FROPTno.txt", "FROPTpl.txt", "FROPTpt.txt", "FROPTro.txt", "FROPTru.txt", "FROPTSH.txt", "FROPTsk.txt", "FROPTSL.txt", "FROPTsv.txt", "FROPTth.txt", "FROPTTR.txt", "FROPTUK.txt", "FROPTzf.txt", "FROPTzh.txt", "GridViewAR.txt", "GridViewBG.txt", "GridViewCA.txt", "GridViewcs.txt", "GridViewda.txt", "GridViewde.txt", "GridViewEL.txt", "GridViewen.txt", "GridViewes.txt", "GridViewet.txt", "GridViewfi.txt", "GridViewfr.txt", "GridViewHE.txt", "GridViewHR.txt", "GridViewhu.txt", "GridViewit.txt", "GridViewja.txt", "GridViewko.txt", "GridViewlt.txt", "GridViewlv.txt", "GridViewnl.txt", "GridViewno.txt", "GridViewpl.txt", "GridViewpt.txt", "GridViewro.txt", "GridViewru.txt", "GridViewSH.txt", "GridViewsk.txt", "GridViewSL.txt", "GridViewsv.txt", "GridViewth.txt", "GridViewTR.txt", "GridViewUK.txt", "GridViewzf.txt", "GridViewzh.txt", "guidllAR.txt", "guidllBG.txt", "guidllca.txt", "guidllcs.txt", "guidllda.txt", "guidllde.txt", "guidllEL.txt", "guidllen.txt", "guidlles.txt", "guidllet.txt", "guidllfi.txt", "guidllfr.txt", "guidllHE.txt", "guidllHR.txt", "guidllhu.txt", "guidllit.txt", "guidllja.txt", "guidllko.txt", "guidlllt.txt", "guidlllv.txt", "guidllnl.txt", "guidllno.txt", "guidllpl.txt", "guidllpt.txt", "guidllro.txt", "guidllru.txt", "guidllSH.txt", "guidllsk.txt", "guidllSL.txt", "guidllsv.txt", "guidllth.txt", "guidllTR.txt", "guidllUK.txt", "guidllzf.txt", "guidllzh.txt", "gxwilAR.txt", "gxwilBG.txt", "gxwilca.txt", "gxwilcs.txt", "gxwilda.txt", "gxwilde.txt", "gxwilEL.txt", "gxwilen.txt", "gxwiles.txt", "gxwilet.txt", "gxwilfi.txt", "gxwilfr.txt", "gxwilHE.txt", "gxwilHR.txt", "gxwilhu.txt", "gxwilit.txt", "gxwilja.txt", "gxwilko.txt", "gxwillt.txt", "gxwillv.txt", "gxwilnl.txt", "gxwilno.txt", "gxwilpl.txt", "gxwilpt.txt", "gxwilro.txt", "gxwilru.txt", "gxwilSH.txt", "gxwilsk.txt", "gxwilSL.txt", "gxwilsv.txt", "gxwilth.txt", "gxwilTR.txt", "gxwilUK.txt", "gxwilzf.txt", "gxwilzh.txt", "lgndllAR.txt", "lgndllBG.txt", "lgndllca.txt", "lgndllcs.txt", "lgndllda.txt", "lgndllde.txt", "lgndllEL.txt", "lgndllen.txt", "lgndlles.txt", "lgndllet.txt", "lgndllfi.txt", "lgndllfr.txt", "lgndllHE.txt", "lgndllHR.txt", "lgndllhu.txt", "lgndllit.txt", "lgndllja.txt", "lgndllko.txt", "lgndlllt.txt", "lgndlllv.txt", "lgndllnl.txt", "lgndllno.txt", "lgndllpl.txt", "lgndllpt.txt", "lgndllro.txt", "lgndllru.txt", "lgndllSH.txt", "lgndllsk.txt", "lgndllSL.txt", "lgndllsv.txt", "lgndllth.txt", "lgndllTR.txt", "lgndllUK.txt", "lgndllzf.txt", "lgndllzh.txt", "LgnUiAR.txt", "LgnUiBG.txt", "LgnUiCA.txt", "LgnUics.txt", "LgnUida.txt", "LgnUide.txt", "LgnUiEL.txt", "LgnUien.txt", "LgnUies.txt", "LgnUiet.txt", "LgnUifi.txt", "LgnUifr.txt", "LgnUiHE.txt", "LgnUiHR.txt", "LgnUihu.txt", "LgnUiit.txt", "LgnUija.txt", "LgnUiko.txt", "LgnUilt.txt", "LgnUilv.txt", "LgnUinl.txt", "LgnUino.txt", "LgnUipl.txt", "LgnUipt.txt", "LgnUiro.txt", "LgnUiru.txt", "LgnUiSH.txt", "LgnUisk.txt", "LgnUiSL.txt", "LgnUisv.txt", "LgnUith.txt", "LgnUiTR.txt", "LgnUiUK.txt", "LgnUizf.txt", "LgnUizh.txt", "logonAR.txt", "logonBG.txt", "logonca.txt", "logoncs.txt", "logonda.txt", "logonde.txt", "logonEL.txt", "logonen.txt", "logones.txt", "logonet.txt", "logonfi.txt", "logonfr.txt", "logonHE.txt", "logonHR.txt", "logonhu.txt", "logonit.txt", "logonja.txt", "logonko.txt", "logonlt.txt", "logonlv.txt", "logonnl.txt", "logonno.txt", "logonpl.txt", "logonpt.txt", "logonro.txt", "logonru.txt", "logonSH.txt", "logonsk.txt", "logonSL.txt", "logonsv.txt", "logonth.txt", "logonTR.txt", "logonUK.txt", "logonzf.txt", "logonzh.txt", "OFFICEINTEGRATIONAR.txt", "OFFICEINTEGRATIONBG.txt", "OFFICEINTEGRATIONCA.txt", "OFFICEINTEGRATIONcs.txt", "OFFICEINTEGRATIONda.txt", "OFFICEINTEGRATIONde.txt", "OFFICEINTEGRATIONEL.txt", "OFFICEINTEGRATIONen.txt", "OFFICEINTEGRATIONes.txt", "OFFICEINTEGRATIONet.txt", "OFFICEINTEGRATIONfi.txt", "OFFICEINTEGRATIONfr.txt", "OFFICEINTEGRATIONHE.txt", "OFFICEINTEGRATIONHR.txt", "OFFICEINTEGRATIONhu.txt", "OFFICEINTEGRATIONit.txt", "OFFICEINTEGRATIONja.txt", "OFFICEINTEGRATIONko.txt", "OFFICEINTEGRATIONlt.txt", "OFFICEINTEGRATIONlv.txt", "OFFICEINTEGRATIONnl.txt", "OFFICEINTEGRATIONno.txt", "OFFICEINTEGRATIONpl.txt", "OFFICEINTEGRATIONpt.txt", "OFFICEINTEGRATIONro.txt", "OFFICEINTEGRATIONru.txt", "OFFICEINTEGRATIONSH.txt", "OFFICEINTEGRATIONsk.txt", "OFFICEINTEGRATIONSL.txt", "OFFICEINTEGRATIONsv.txt", "OFFICEINTEGRATIONth.txt", "OFFICEINTEGRATIONTR.txt", "OFFICEINTEGRATIONUK.txt", "OFFICEINTEGRATIONzf.txt", "OFFICEINTEGRATIONzh.txt", "optionAR.txt", "optionBG.txt", "optionca.txt", "optioncs.txt", "optionda.txt", "optionde.txt", "optionEL.txt", "optionen.txt", "optiones.txt", "optionet.txt", "optionfi.txt", "optionfr.txt", "optionHE.txt", "optionHR.txt", "optionhu.txt", "optionit.txt", "optionja.txt", "optionko.txt", "optionlt.txt", "optionlv.txt", "optionnl.txt", "optionno.txt", "optionpl.txt", "optionpt.txt", "optionro.txt", "optionru.txt", "optionSH.txt", "optionsk.txt", "optionSL.txt", "optionsv.txt", "optionth.txt", "optionTR.txt", "optionUK.txt", "optionzf.txt", "optionzh.txt", "pcfvdAR.txt", "pcfvdBG.txt", "pcfvdCA.txt", "pcfvdCS.txt", "pcfvdDA.txt", "pcfvdDE.txt", "pcfvdEL.txt", "pcfvdEN.txt", "pcfvdES.txt", "pcfvdET.txt", "pcfvdFI.txt", "pcfvdFR.txt", "pcfvdHE.txt", "pcfvdHR.txt", "pcfvdHU.txt", "pcfvdIT.txt", "pcfvdJA.txt", "pcfvdKO.txt", "pcfvdLT.txt", "pcfvdLV.txt", "pcfvdNL.txt", "pcfvdNO.txt", "pcfvdPL.txt", "pcfvdPT.txt", "pcfvdRO.txt", "pcfvdRU.txt", "pcfvdSH.txt", "pcfvdSK.txt", "pcfvdSL.txt", "pcfvdSV.txt", "pcfvdTH.txt", "pcfvdTR.txt", "pcfvdUK.txt", "pcfvdZF.txt", "pcfvdZH.txt", "PLUGINFRAMEWORKAR.txt", "PLUGINFRAMEWORKBG.txt", "PLUGINFRAMEWORKCA.txt", "PLUGINFRAMEWORKcs.txt", "PLUGINFRAMEWORKda.txt", "PLUGINFRAMEWORKde.txt", "PLUGINFRAMEWORKEL.txt", "PLUGINFRAMEWORKen.txt", "PLUGINFRAMEWORKes.txt", "PLUGINFRAMEWORKet.txt", "PLUGINFRAMEWORKfi.txt", "PLUGINFRAMEWORKfr.txt", "PLUGINFRAMEWORKHE.txt", "PLUGINFRAMEWORKHR.txt", "PLUGINFRAMEWORKhu.txt", "PLUGINFRAMEWORKit.txt", "PLUGINFRAMEWORKja.txt", "PLUGINFRAMEWORKko.txt", "PLUGINFRAMEWORKlt.txt", "PLUGINFRAMEWORKlv.txt", "PLUGINFRAMEWORKnl.txt", "PLUGINFRAMEWORKno.txt", "PLUGINFRAMEWORKpl.txt", "PLUGINFRAMEWORKpt.txt", "PLUGINFRAMEWORKro.txt", "PLUGINFRAMEWORKru.txt", "PLUGINFRAMEWORKSH.txt", "PLUGINFRAMEWORKsk.txt", "PLUGINFRAMEWORKSL.txt", "PLUGINFRAMEWORKsv.txt", "PLUGINFRAMEWORKth.txt", "PLUGINFRAMEWORKTR.txt", "PLUGINFRAMEWORKUK.txt", "PLUGINFRAMEWORKzf.txt", "PLUGINFRAMEWORKzh.txt", "SEARCHHELPAR.txt", "SEARCHHELPBG.txt", "SEARCHHELPCA.txt", "SEARCHHELPcs.txt", "SEARCHHELPda.txt", "SEARCHHELPde.txt", "SEARCHHELPEL.txt", "SEARCHHELPen.txt", "SEARCHHELPes.txt", "SEARCHHELPet.txt", "SEARCHHELPfi.txt", "SEARCHHELPfr.txt", "SEARCHHELPHE.txt", "SEARCHHELPHR.txt", "SEARCHHELPhu.txt", "SEARCHHELPit.txt", "SEARCHHELPja.txt", "SEARCHHELPko.txt", "SEARCHHELPlt.txt", "SEARCHHELPlv.txt", "SEARCHHELPnl.txt", "SEARCHHELPno.txt", "SEARCHHELPpl.txt", "SEARCHHELPpt.txt", "SEARCHHELPro.txt", "SEARCHHELPru.txt", "SEARCHHELPSH.txt", "SEARCHHELPsk.txt", "SEARCHHELPSL.txt", "SEARCHHELPsv.txt", "SEARCHHELPth.txt", "SEARCHHELPTR.txt", "SEARCHHELPUK.txt", "SEARCHHELPzf.txt", "SEARCHHELPzh.txt", "settingAR.txt", "settingBG.txt", "settingca.txt", "settingcs.txt", "settingda.txt", "settingde.txt", "settingEL.txt", "settingen.txt", "settinges.txt", "settinget.txt", "settingfi.txt", "settingfr.txt", "settingHE.txt", "settingHR.txt", "settinghu.txt", "settingit.txt", "settingja.txt", "settingko.txt", "settinglt.txt", "settinglv.txt", "settingnl.txt", "settingno.txt", "settingpl.txt", "settingpt.txt", "settingro.txt", "settingru.txt", "settingSH.txt", "settingsk.txt", "settingSL.txt", "settingsv.txt", "settingth.txt", "settingTR.txt", "settingUK.txt", "settingzf.txt", "settingzh.txt", "shcutAR.txt", "shcutBG.txt", "shcutca.txt", "shcutcs.txt", "shcutda.txt", "shcutde.txt", "shcutEL.txt", "shcuten.txt", "shcutes.txt", "shcutet.txt", "shcutfi.txt", "shcutfr.txt", "shcutHE.txt", "shcutHR.txt", "shcuthu.txt", "shcutit.txt", "shcutja.txt", "shcutko.txt", "shcutlt.txt", "shcutlv.txt", "shcutnl.txt", "shcutno.txt", "shcutpl.txt", "shcutpt.txt", "shcutro.txt", "shcutru.txt", "shcutSH.txt", "shcutsk.txt", "shcutSL.txt", "shcutsv.txt", "shcutth.txt", "shcutTR.txt", "shcutUK.txt", "shcutzf.txt", "shcutzh.txt"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\Products",
+        "dir": ["Professional"],
+        "file": []
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\Products\\Professional",
+        "dir": [],
+        "file": ["AppRes.dll", "defaultreg", "EAIComCreate.dll", "eaimfc_dll.dll", "eaiunicode_dll.dll", "ImplementedCategories.ini", "iSeries.thtml", "iSeriesCreateOcxExternal.js", "iSeriesLauncher.exe", "misc_Menu.gif", "MonikerUtil_dll.dll", "RegAdd.exe", "VFUtil.dll", "VisView.exe"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\Program",
+        "dir": ["2DPDF", "C", "de", "es", "fr", "it", "JaPCK", "ko", "ru", "ZhBIG5", "ZhGBK"],
+        "file": ["AboutBox.dll", "ActivateView.dll", "Adwf_Loader.dll", "Assembly3D.dll", "Auto_Loader.dll", "Basic2DViewer.dll", "BMPDevice.dll", "BMP_Loader.dll", "C4MonoDevice.dll", "CalCompDevice.dll", "Cal_Loader.dll", "CGMDevice.dll", "CGM_Loader.dll", "CGM_NIST_Loader.dll", "CGM_Saver.dll", "CompareColor.dll", "CompareDistance.dll", "Converter_Loader.dll", "Core2DLib.dll", "CS3DFramework.dll", "DAKService.dll", "DFT_Loader.dll", "DGN_Loader.dll", "DMUtils.dll", "DWF_Loader.dll", "Dwg_Loader.dll", "EAIComCreate.dll", "eaimfc_dll.dll", "eairpc_dll.dll", "eaiunicode_dll.dll", "EMFRender.dll", "EMF_Loader.dll", "ETF_Loader.dll", "FastEnum.dll", "FrameBroker.dll", "FrameBrokerCommon.dll", "freetype.dll", "ftgl.dll", "GBR_Loader.dll", "GDIDevice.dll", "GIF_Loader.dll", "GRep.dll", "GRepMeasureTools.dll", "GRepPropertiesManager.dll", "GRepTools.dll", "Helpers.dll", "HPGLDevice.dll", "HPGL_Loader.dll", "HPTree.dll", "IDevice.dll", "igestojt.exe", "Image.dll", "ImageC.dll", "ImageNavigator.dll", "ImageNavigator3D.dll", "ImageViewUtils.dll", "iSeriesIPC.ini", "javascript.dll", "JPEG2000Device.dll", "JPEG2K_Loader.dll", "JPEGDevice.dll", "JPEG_Loader.dll", "Jt73.dll", "JtBrep73.dll", "JtImageIO73.dll", "JtLibra73.dll", "JtOGL73.dll", "JtSimp73.dll", "JtSimpOGL73.dll", "JtSupt73.dll", "JtTk54.dll", "JtWinSys73.dll", "JtXTBrep73.dll", "LoaderFactory.dll", "Markup3D.dll", "MarkupAttributes.dll", "MarkupProperties.dll", "Measurement.dll", "MemoryDevice.dll", "MILRMonoDevice.dll", "MI_Loader.dll", "modules.txt", "MonikerUtil_dll.dll", "Mono_Loader.dll", "Motion.dll", "MotionSystem.dll", "NavCommon.dll", "NavExamine.dll", "Navigator.dll", "NavManager.dll", "NULL_Loader.dll", "ObjBroker.dll", "OVL_Loader.dll", "ParaSupt73.dll", "PDFDevice.dll", "PDFRender.dll", "PDF_Loader.dll", "PickFeatureManager.dll", "PLMVis.INI", "PLMVisUtils.dll", "PNGDevice.dll", "PNG_Loader.dll", "PostscriptDevice.dll", "PreviewConverter.dll", "Printing.dll", "ProgramManifest.manifest", "ProxyDetect.dll", "PRT_Loader.dll", "PSBodyShop.dll", "PSKernel.dll", "PSLoader.dll", "psxttoolkit.dll", "RasterExporter.dll", "Raster_Loader.dll", "reglog.txt", "runTestFixture.bat", "RVF_Loader.dll", "SEVControl2D.ocx", "SEVControl3D.ocx", "SEVJNI.dll", "SingleEmbeddedViewer.jar", "SingleEmbeddedViewerS.jar", "stltojt.exe", "StreamAdapter.dll", "TBWindowUnified.dll", "TcCrypto.dll", "TcCryptoUtil.dll", "TcVis_TcCrypto_dll.dll", "TIFFDevice.dll", "Tiff_Loader.dll", "TransIges.dll", "TransStl.dll", "TransWrl.dll", "TreeBrokerUnified.dll", "TRIF_Loader.dll", "TXT_Loader.dll", "ugs_common.dll", "UndoRedo.dll", "Util2D.dll", "V2DHPTree_Adapter.dll", "V3DDocTree.dll", "VECGMDevice.dll", "VERSION.INI", "VFComUtilJt.dll", "VFUtil.dll", "ViewGridControl.dll", "ViewGridControl2D.dll", "ViewSetCtl.dll", "Vis2D.dll", "Vis3D.dll", "Vis3DExt.dll", "Vis3DProperties.dll", "VisAutomation.dll", "VisAutomation.tlb", "VisDraw.dll", "VisGrid.dll", "VisViewJNI.dll", "VPAdjust2D.dll", "VPAdvancedViews.dll", "VPAnnotation.dll", "VPAnnotation2D.dll", "VPAppearanceEdit.dll", "VPAppearanceSystem.dll", "VPAppState.dll", "vpauthor.dll", "VPCompare.dll", "VPCompare2D.dll", "VPCrossSection3D.dll", "VPDataAccess.dll", "VPEntityGroup.dll", "VPGuid.dll", "VPInstance.dll", "VPInteropPreferences.dll", "VPLayer.dll", "VPMeasurement.dll", "VPMeasurement2D.dll", "VPMotionSystem.dll", "VPPickFeatureManager.dll", "VPPMI.dll", "VPRMIService.dll", "VPSearch.dll", "VPSecondaryManager.dll", "VPStorageBroker.dll", "VPVirtualDisplay.dll", "VVI.dll", "WebStream.dll", "WebViewer2D.dll", "WebViewer3D.dll", "whiptk.dll", "WorkspaceManager.dll", "wrltojt.exe", "Xerces25.dll", "XMLDevice.dll", "XTUtility.dll", "Zip_dll.dll"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\Program\\2DPDF",
+        "dir": [],
+        "file": ["ACE.dll", "AdobePDFL.dll", "AdobeXMP.dll", "AGM.dll", "ARE.dll", "AXE8SharedExpat.dll", "BIB.dll", "BIBUtils.dll", "CoolType.dll", "icucnv36.dll", "icudt36.dll", "JP2KLib.dll"]
+    }, {
+        "path": "\\\\10.12.11.20\\TFO.FAIT.Share\\# ITHELPDESK\\1. 설치 프로그램\\1_SAP 설치\\1. SAP GUI\\NW_7.0_Presentation_\\PRES1\\GUI\\WINDOWS\\WIN32\\SapGui\\Program\\C",
+        "dir": [],
+        "file": ["idw2adwf_res.dll", "ReferenceMenu_res.dll"]
+    }
+]

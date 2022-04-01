@@ -22,7 +22,7 @@ for (path, dir, file) in os.walk(path_dir):
     }
     cnt += 1;
     folderInfo.append(folderScan);
-    if cnt == 10:
+    if cnt == 100:
         jsonFileInput(folderInfo);
         break
    
