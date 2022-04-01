@@ -93,11 +93,12 @@ class MyApp(QWidget):
                         dir = json_data[i]['dir'];
                         file = json_data[i]['file'];
 
-                        # print("path : ",path);
-                        # print("R Path : ", r"'"+path+"'")
+                        print("path : ",path);
+                        print("R Path : ", r"'"+path+"'")
+                        print("111111111111111111111 : ", text+"\\"+itemText);
 
                         if path == text+"\\"+itemText:
-                            # print(len(file));
+                            print(file);
                             for i in range(len(file)):
                                 self.listwidget2.insertItem(i,file[i]);
     
