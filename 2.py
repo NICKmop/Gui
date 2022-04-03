@@ -1,5 +1,6 @@
 ## Ex 5-19. QTextBrowser.
 
+from msilib.schema import ListView
 import sys, json, os
 from tkinter import messagebox
 from PyQt5.QtWidgets import (QApplication, QWidget
@@ -13,9 +14,21 @@ class MyApp(QWidget):
         super().__init__()
         self.initUI()
 
+    def clear_widget(self):
+        self.listwidget.clear();
+        self.listwidget2.clear();
+        self.listwidget3.clear();
+
     def initUI(self):
         self.le = QLineEdit()
         self.le.returnPressed.connect(self.append_text);
+
+        # LineEdit 2, 3번 추가
+        self.le2 = QLineEdit();
+        self.le2.returnPressed.connect(self.search_folderName);
+
+        self.le3 = QLineEdit();
+        self.le3.returnPressed.connect(self.search_fileExe);
 
         # QListWidget 추가
         self.listwidget = QListWidget(self)
@@ -24,6 +37,11 @@ class MyApp(QWidget):
         # QListWidget 추가
         self.listwidget2 = QListWidget(self)
         self.listwidget2.resize(150, 100)
+        
+        # QListWidget 추가
+        self.listwidget3 = QListWidget(self)
+        self.listwidget3.resize(150, 100)
+
         # 시그널 연결
         self.listwidget.itemSelectionChanged.connect(self.selectchanged_listwidget);
 
@@ -37,10 +55,17 @@ class MyApp(QWidget):
 
         self.layout = QGridLayout()
         self.layout.addWidget(self.le,1,0)
-        self.layout.addWidget(self.delete_button,2,0);
+        self.layout.addWidget(self.delete_button,3,0);
         self.layout.addWidget(self.listwidget, 0, 0)
 
+        # dir
+        self.layout.addWidget(self.le2,1,1)
         self.layout.addWidget(self.listwidget2, 0, 1)
+        #file
+        self.layout.addWidget(self.le3,1,2)
+        self.layout.addWidget(self.listwidget3, 0, 2);
+        
+        self.listwidget.resizeMode();
 
         self.setLayout(self.layout)
 
@@ -49,11 +74,13 @@ class MyApp(QWidget):
         self.show()
 
     def append_text(self):
+        self.listwidget3.clear();
         self.listwidget2.clear();
         self.listwidget.clear();
 
         text = self.le.text();
-        with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScan.json', 'r', encoding='utf-8') as f:
+        # with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScan.json', 'r', encoding='utf-8') as f:
+        with open('folderScan.json', 'r', encoding='utf-8') as f:
             json_data = json.load(f);
 
             # if text == r'\\10.12.11.20\TFO.FAIT.Share':
@@ -75,14 +102,17 @@ class MyApp(QWidget):
                         self.listwidget.insertItem(cnt, j);
                     for k in file:
                         cnt += 1;
-                        self.listwidget2.insertItem(cnt, k);
-
+                        self.listwidget3.insertItem(cnt, k);
+    # file
     def selectchanged_listwidget(self):
-        self.listwidget2.clear();
+        # self.listwidget2.clear();
+        # self.listwidget3.clear();
+        self.clear_widget;
 
         lst_item = self.listwidget.selectedItems(); # 선택된 데이터 체크
         text = self.le.text();
-        with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScan.json', 'r', encoding='utf-8') as f:
+        with open('folderScan.json', 'r', encoding='utf-8') as f:
+        # with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScan.json', 'r', encoding='utf-8') as f:
                 json_data = json.load(f);
 
                 for item in lst_item:
@@ -92,20 +122,26 @@ class MyApp(QWidget):
                         path = json_data[i]['path'];
                         dir = json_data[i]['dir'];
                         file = json_data[i]['file'];
-
-                        print("path : ",path);
-                        print("R Path : ", r"'"+path+"'")
-                        print("111111111111111111111 : ", text+"\\"+itemText);
-
+            
                         if path == text+"\\"+itemText:
-                            print(file);
+                            for i in range(len(dir)):
+                                self.listwidget2.insertItem(i, dir[i]);               
                             for i in range(len(file)):
-                                self.listwidget2.insertItem(i,file[i]);
+                                self.listwidget3.insertItem(i,file[i]);
+                
+    def search_folderName(self):
+        print("search");
     
+    def search_fileExe(self):
+        print("search");
+
     def clicked_delete_button(self):
         self.listwidget.clear();
         self.listwidget2.clear();
+        self.listwidget3.clear();
         self.le.clear();
+
+    
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
