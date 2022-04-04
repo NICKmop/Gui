@@ -1,7 +1,8 @@
 #-*- coding:utf-8 -*-
 from dataclasses import replace
-import os, json
 from posixpath import split
+from datetime import datetime
+import os, json
 
 path_dir = r'\\10.12.11.20\TFO.FAIT.Share'
 
@@ -15,14 +16,20 @@ cnt = 0;
 for (path, dir, file) in os.walk(path_dir):
     # path = path.replace("\\","\'");
     # path = path.replace("\\\\",r"\\");
+    for fileTime in file:
+        fileMTime = datetime.fromtimestamp(os.path.getmtime(fileTime));
     folderScan = {
         "path":path,
         "dir" : dir,
-        "file": file
+        "file": file,
+        "fileTime": fileMTime 
     }
-    cnt += 1;
+    
     folderInfo.append(folderScan);
-    if cnt == 100:
+
+# jsonFileInput(folderInfo);  
+    cnt += 1;
+    if cnt == 10:
         jsonFileInput(folderInfo);
         break
    
