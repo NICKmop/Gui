@@ -14,18 +14,21 @@ def jsonFileInput(value):
 folderInfo = [];
 cnt = 0;
 for (path, dir, file) in os.walk(path_dir):
-    # path = path.replace("\\","\'");
-    # path = path.replace("\\\\",r"\\");
-    for fileTime in file:
-        fileMTime = datetime.fromtimestamp(os.path.getmtime(fileTime));
-    folderScan = {
-        "path":path,
-        "dir" : dir,
-        "file": file,
-        "fileTime": fileMTime 
-    }
-    
-    folderInfo.append(folderScan);
+    try:
+        for files in file:
+            fileCreateTime = datetime.fromtimestamp(os.path.getmtime(files));
+            fileGetSize = os.path.getsize(files);
+        folderScan = {
+            "path":path,
+            "dir" : dir,
+            "file": file,
+            "fileCreateTime": fileCreateTime,
+            "fileGetSize": fileGetSize
+        }
+        folderInfo.append(folderScan);
+    except FileNotFoundError as FN:
+        print(FN);
+        pass;
 
 # jsonFileInput(folderInfo);  
     cnt += 1;
