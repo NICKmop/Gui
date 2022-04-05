@@ -1,6 +1,7 @@
 ## Ex 5-19. QTextBrowser.
 
 from msilib.schema import ListView
+from functools import partial
 import sys, json, os
 from tkinter import messagebox
 from PyQt5.QtWidgets import (QApplication, QWidget
@@ -18,22 +19,35 @@ class MyApp(QWidget):
         self.listwidget.clear();
         self.listwidget2.clear();
         self.listwidget3.clear();
+        self.listwidget4.clear();
 
     def initUI(self):
+        #라벨
+        self.label1 = QLabel('검색', self)
+
+        # 검색창
         self.le = QLineEdit()
         self.le.returnPressed.connect(self.append_text);
 
         # QListWidget 추가
         self.listwidget = QListWidget(self)
-        self.listwidget.resize(150, 100)
-
-        # QListWidget 추가
+        self.listwidget.resize(200, 100)
         self.listwidget2 = QListWidget(self)
         self.listwidget2.resize(150, 100)
-        
-        # QListWidget 추가
         self.listwidget3 = QListWidget(self)
         self.listwidget3.resize(150, 100)
+        self.listwidget4 = QListWidget(self)
+        self.listwidget4.resize(150, 100)
+
+        #스크롤링
+        self.vs1 = self.listwidget.verticalScrollBar();
+        self.vs2 = self.listwidget2.verticalScrollBar();
+        self.vs3 = self.listwidget3.verticalScrollBar();
+        self.vs4 = self.listwidget4.verticalScrollBar();
+        self.vs1.valueChanged.connect(self.move_scrollbar);
+        self.vs2.valueChanged.connect(self.move_scrollbar);
+        self.vs3.valueChanged.connect(self.move_scrollbar);
+        self.vs4.valueChanged.connect(self.move_scrollbar);
 
         # 시그널 연결
         self.listwidget.itemSelectionChanged.connect(self.selectchanged_listwidget);
@@ -42,19 +56,16 @@ class MyApp(QWidget):
         self.delete_button = QPushButton(self);
         self.delete_button.move(180, 5)
         self.delete_button.setText('청소')
-
-        # 비우기 시그널
         self.delete_button.clicked.connect(self.clicked_delete_button)
 
-        # path
         self.layout = QGridLayout()
-        self.layout.addWidget(self.le,0,0)
+        self.layout.addWidget(self.label1,0,0);
+        self.layout.addWidget(self.le,0,1);
         self.layout.addWidget(self.delete_button,2,0);
-        self.layout.addWidget(self.listwidget, 1, 0)
-        # dir
+        self.layout.addWidget(self.listwidget, 1, 0);
         self.layout.addWidget(self.listwidget2, 1, 1)
-        #file
         self.layout.addWidget(self.listwidget3, 1, 2);
+        self.layout.addWidget(self.listwidget4, 1, 3);
         
         self.listwidget.resizeMode();
 
@@ -64,7 +75,12 @@ class MyApp(QWidget):
         self.setGeometry(300, 300, 1000, 500)
         self.show()
 
+    def move_scrollbar(self,value):
+        self.vs1.setValue(value);
+        self.vs2.setValue(value);
+
     def append_text(self):
+        self.listwidget4.clear();
         self.listwidget3.clear();
         self.listwidget2.clear();
         self.listwidget.clear();
@@ -77,28 +93,24 @@ class MyApp(QWidget):
             cnt = 0;
             for i in range(0,len(json_data)):
                 path = json_data[i]['path'];
-                dir = json_data[i]['dir'];
+                # dir = json_data[i]['dir'];
                 file = json_data[i]['file'];
+                cTime = json_data[i]['fileExe'];
+                fileExe = json_data[i]['fileCreateTime'];
                 for j in file:
                     try:
-                        spFile = str(j).split('.');
                         if text in j:
                             cnt += 1;
                             self.listwidget.insertItem(cnt,path);
                             self.listwidget2.insertItem(cnt, j);
-                            self.listwidget3.insertItem(cnt, spFile[1]);
+                            self.listwidget3.insertItem(cnt, cTime);
+                            self.listwidget4.insertItem(cnt, fileExe);
 
-                        # for j in path:
-                        #     cnt += 1;
-                        #     self.listwidget.insertItem(cnt, j);
                     except IndexError as In:
                         print(In);
                         pass
     # file
     def selectchanged_listwidget(self):
-        # self.listwidget2.clear();
-        # self.listwidget3.clear();
-        self.clear_widget;
 
         lst_item = self.listwidget.selectedItems(); # 선택된 데이터 체크
         text = self.le.text();
@@ -130,6 +142,7 @@ class MyApp(QWidget):
         self.listwidget.clear();
         self.listwidget2.clear();
         self.listwidget3.clear();
+        self.listwidget4.clear();
         self.le.clear();
 
     

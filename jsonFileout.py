@@ -12,28 +12,45 @@ def jsonFileInput(value):
         json.dump(value, json_file, ensure_ascii=False);
 
 folderInfo = [];
+fileTimeBox = [];
+fileExe = [];
 cnt = 0;
 for (path, dir, file) in os.walk(path_dir):
-    try:
-        for files in file:
-            fileCreateTime = datetime.fromtimestamp(os.path.getmtime(files));
-            fileGetSize = os.path.getsize(files);
-        folderScan = {
-            "path":path,
-            "dir" : dir,
-            "file": file,
-            "fileCreateTime": fileCreateTime,
-            "fileGetSize": fileGetSize
-        }
-        folderInfo.append(folderScan);
-    except FileNotFoundError as FN:
-        print(FN);
-        pass;
+    
+    fileTimeBox = [];
+    fileExe = [];
 
-# jsonFileInput(folderInfo);  
-    cnt += 1;
-    if cnt == 10:
-        jsonFileInput(folderInfo);
-        break
+    folderScan = {
+        "path":path,
+        "dir" : dir,
+        "file": file
+    }
+
+    for i in folderScan['file']:
+        try:
+            fileMtime = datetime.fromtimestamp(os.path.getmtime(path+'\\'+i));
+            print(fileMtime);
+            fileTimeBox.append(str(fileMtime).split('.')[0])
+            folderScan["fileCreateTime"] = fileTimeBox;
+        except OSError as os:
+            print(os);
+            pass;
+        except NameError as name:
+            print(name)
+            pass;
+    for j in folderScan["file"]:
+        name, ext = os.path.splitext(j);
+        if not ext:
+            ext = "확장자가 없습니다."
+        fileExe.append(ext);
+        folderScan["fileExe"] = fileExe;
+
+    folderInfo.append(folderScan);
+
+jsonFileInput(folderInfo);  
+    # cnt += 1;
+    # if cnt == 100:
+    #     jsonFileInput(folderInfo);
+    #     break
    
 
