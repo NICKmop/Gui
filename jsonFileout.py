@@ -14,43 +14,58 @@ def jsonFileInput(value):
 folderInfo = [];
 fileTimeBox = [];
 fileExe = [];
+
+fileWordBox = [];
+
 cnt = 0;
+ppp = [];
 for (path, dir, file) in os.walk(path_dir):
     
     fileTimeBox = [];
     fileExe = [];
 
+    for ii in file:
+        ppp = [];
+        file = path+" :"+ii
+        print("ssss : ",  file )
+        ppp.append(file);
+
     folderScan = {
         "path":path,
-        "dir" : dir,
-        "file": file
+        "dir" :dir,
+        "file":ppp
     }
 
-    for i in folderScan['file']:
-        try:
-            fileMtime = datetime.fromtimestamp(os.path.getmtime(path+'\\'+i));
-            print(fileMtime);
+    if not folderScan['file']:
+        folderScan["fileCreateTime"] = fileTimeBox;
+        folderScan["fileExe"] = fileExe;
+    else:
+        for i in folderScan['file']:
+            try:
+                fileMtime = datetime.fromtimestamp(os.path.getctime(path+'\\'+i.split(":")[1]));
+                # fileMtime = datetime.fromtimestamp(os.path.getctime(path+'\\'+str(cnt)+" : "+i));
+                name, ext = os.path.splitext(i);
+
+                if not ext:
+                    ext = "확장자가 없습니다."
+                elif not name:
+                    name = "파일명이 없습니다."
+                
+            except OSError as os:
+                pass;
+            except NameError as name:
+                pass;
             fileTimeBox.append(str(fileMtime).split('.')[0])
             folderScan["fileCreateTime"] = fileTimeBox;
-        except OSError as os:
-            print(os);
-            pass;
-        except NameError as name:
-            print(name)
-            pass;
-    for j in folderScan["file"]:
-        name, ext = os.path.splitext(j);
-        if not ext:
-            ext = "확장자가 없습니다."
-        fileExe.append(ext);
-        folderScan["fileExe"] = fileExe;
+            fileExe.append(ext);
+            folderScan["fileExe"] = fileExe;
 
     folderInfo.append(folderScan);
 
-jsonFileInput(folderInfo);  
-    # cnt += 1;
-    # if cnt == 100:
-    #     jsonFileInput(folderInfo);
-    #     break
+# jsonFileInput(folderInfo);  
+    cnt += 1;
+    if cnt == 10:
+        jsonFileInput(folderInfo);
+        break
    
 
