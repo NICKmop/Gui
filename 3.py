@@ -95,7 +95,6 @@ class MyApp(QWidget):
         self.layout.addWidget(self.delete_button,3,0);
         self.layout.addWidget(self.open_button,3,1);
         
-        
         self.listwidget.resizeMode();
 
         self.setLayout(self.layout)
@@ -133,7 +132,9 @@ class MyApp(QWidget):
                     for j,k,l in zip(file, cTime, fileExe):
                         if text in j:
                             cnt += 1;
+
                             self.listwidget.insertItem(cnt,path);
+                            # self.listwidget2.insertItem(cnt, j.split(":")[1]);
                             self.listwidget2.insertItem(cnt, j);
                             #수정 필요
                             self.listwidget3.insertItem(cnt, k);
@@ -164,14 +165,10 @@ class MyApp(QWidget):
                         file = json_data[i]['file'];
 
                         for j in file:
-                            
                             if j == item.text():
-                                print("j 데이타 : ", len(j));
-                                print("path : ", path);
-
-                                # print("duplPath : ", duplPath);
-                                # full_path = path+"\\"+item.text();
-                                # os.startfile(full_path);
+                                full_path = j.replace(":","\\");
+                                print(full_path);
+                                os.startfile(full_path);
 
     def clicked_delete_button(self):
         self.listwidget.clear();

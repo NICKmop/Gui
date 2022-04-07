@@ -26,8 +26,7 @@ for (path, dir, file) in os.walk(path_dir):
 
     for ii in file:
         ppp = [];
-        file = path+" :"+ii
-        print("ssss : ",  file )
+        file = path+":"+ii
         ppp.append(file);
 
     folderScan = {
@@ -64,7 +63,7 @@ for (path, dir, file) in os.walk(path_dir):
 
 # jsonFileInput(folderInfo);  
     cnt += 1;
-    if cnt == 10:
+    if cnt == 100:
         jsonFileInput(folderInfo);
         break
    
