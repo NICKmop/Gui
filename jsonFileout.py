@@ -6,7 +6,6 @@ import os, json
 
 path_dir = r'\\10.12.11.20\TFO.FAIT.Share'
 
-
 def jsonFileInput(value):
     with open("folderScan.json", "w", encoding='utf-8') as json_file:
         json.dump(value, json_file, ensure_ascii=False);
@@ -21,9 +20,6 @@ cnt = 0;
 ppp = [];
 for (path, dir, file) in os.walk(path_dir):
     
-    fileTimeBox = [];
-    fileExe = [];
-
     for ii in file:
         ppp = [];
         file = path+":"+ii
@@ -40,6 +36,8 @@ for (path, dir, file) in os.walk(path_dir):
         folderScan["fileExe"] = fileExe;
     else:
         for i in folderScan['file']:
+            fileTimeBox = [];
+            fileExe = [];
             try:
                 fileMtime = datetime.fromtimestamp(os.path.getctime(path+'\\'+i.split(":")[1]));
                 # fileMtime = datetime.fromtimestamp(os.path.getctime(path+'\\'+str(cnt)+" : "+i));
