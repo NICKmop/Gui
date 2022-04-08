@@ -26,14 +26,15 @@ class MyApp(QWidget):
 
     def drawn(self):
         self.palette = QPalette();
+        # self.palette.setBrush(QPalette.Background, QBrush(QPixmap("C:/Users/user/OneDrive - 대한광통신/바탕 화면/예약/1.png")));
         self.palette.setBrush(QPalette.Background, QBrush(QPixmap("1.png")));
         self.setPalette(self.palette);
 
     def initUI(self):
         #라벨
-        self.label = QLabel('검색', self);
-        self.label.setStyleSheet("border : 1px solid black");
-        self.label.setAlignment(Qt.AlignCenter);
+        # self.label = QLabel('검색', self);
+        # self.label.setStyleSheet("border : 1px solid black");
+        # self.label.setAlignment(Qt.AlignCenter);
 
         self.label1 = QLabel('경로', self);
         self.label1.setFont(QFont("궁서",20));
@@ -78,8 +79,14 @@ class MyApp(QWidget):
         self.open_button.setText('열기');
         self.open_button.clicked.connect(self.double_selectchanged_listwidget);
 
+        #검색 버튼
+        self.search_button = QPushButton(self);
+        self.search_button.setText("검색");
+        self.search_button.clicked.connect(self.append_text);
+
         self.layout = QGridLayout()
-        self.layout.addWidget(self.label,0,0);
+        # self.layout.addWidget(self.label,0,0);
+        self.layout.addWidget(self.search_button, 0,0);
         self.layout.addWidget(self.le,0,1);
 
         self.layout.addWidget(self.label1,1,0);
@@ -116,8 +123,12 @@ class MyApp(QWidget):
         self.listwidget.clear();
 
         text = self.le.text();
-        # with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScan.json', 'r', encoding='utf-8') as f:
-        with open('folderScan.json', 'r', encoding='utf-8') as f:
+        if not text.strip():
+            QMessageBox.about(self, '값을 입력해주세요','값을 입력해주세요.');
+            return;
+        
+        with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScan.json', 'r', encoding='utf-8') as f:
+        # with open('folderScan.json', 'r', encoding='utf-8') as f:
             json_data = json.load(f);
 
             cnt = 0;
@@ -155,8 +166,8 @@ class MyApp(QWidget):
     def double_selectchanged_listwidget(self):
         lst_item = self.listwidget2.selectedItems();
 
-        with open('folderScan.json', 'r', encoding='utf-8') as f:
-        # with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScan.json', 'r', encoding='utf-8') as f:
+        # with open('folderScan.json', 'r', encoding='utf-8') as f:
+        with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScan.json', 'r', encoding='utf-8') as f:
                 json_data = json.load(f);
 
                 for item in lst_item:

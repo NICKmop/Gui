@@ -61,10 +61,10 @@ for (path, dir, file) in os.walk(path_dir):
 
     folderInfo.append(folderScan);
 
-# jsonFileInput(folderInfo);  
-    cnt += 1;
-    if cnt == 100:
-        jsonFileInput(folderInfo);
-        break
+jsonFileInput(folderInfo);  
+    # cnt += 1;
+    # if cnt == 100:
+    #     jsonFileInput(folderInfo);
+    #     break
    
 
