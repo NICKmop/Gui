@@ -80,7 +80,8 @@ class MyApp(QWidget):
 
         text = self.le.text();
         # with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScan.json', 'r', encoding='utf-8') as f:
-        with open('folderScan.json', 'r', encoding='utf-8') as f:
+        with open('folderScanfile.json', 'r', encoding='utf-8') as f:
+        # with open('folderScan.json', 'r', encoding='utf-8') as f:
             json_data = json.load(f);
 
             # if text == r'\\10.12.11.20\TFO.FAIT.Share':
@@ -111,7 +112,8 @@ class MyApp(QWidget):
 
         lst_item = self.listwidget.selectedItems(); # 선택된 데이터 체크
         text = self.le.text();
-        with open('folderScan.json', 'r', encoding='utf-8') as f:
+        # with open('folderScan.json', 'r', encoding='utf-8') as f:
+        with open('folderScanfile.json', 'r', encoding='utf-8') as f:
         # with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScan.json', 'r', encoding='utf-8') as f:
                 json_data = json.load(f);
 

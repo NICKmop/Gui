@@ -1,16 +1,14 @@
 ## Ex 5-19. QTextBrowser.
 
-from ast import Num
 from msilib.schema import ListView
-from functools import partial
 import sys, json, os
-from tkinter import messagebox
 from PyQt5.QtWidgets import (QApplication, QWidget
-, QLineEdit, QTextBrowser, QPushButton, QVBoxLayout)
+, QLineEdit, QTextBrowser, QPushButton, QVBoxLayout, QSystemTrayIcon, QMenu)
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-import collections
+
+
 
 class MyApp(QWidget):
     def __init__(self):
@@ -26,16 +24,12 @@ class MyApp(QWidget):
 
     def drawn(self):
         self.palette = QPalette();
-        # self.palette.setBrush(QPalette.Background, QBrush(QPixmap("C:/Users/user/OneDrive - 대한광통신/바탕 화면/예약/1.png")));
-        self.palette.setBrush(QPalette.Background, QBrush(QPixmap("1.png")));
+        self.palette.setBrush(QPalette.Background, QBrush(QPixmap(r'\\10.12.11.20\TFO.FAIT.Share\1.png')));
         self.setPalette(self.palette);
 
-    def initUI(self):
-        #라벨
-        # self.label = QLabel('검색', self);
-        # self.label.setStyleSheet("border : 1px solid black");
-        # self.label.setAlignment(Qt.AlignCenter);
 
+    def initUI(self):
+        # 라벨
         self.label1 = QLabel('경로', self);
         self.label1.setFont(QFont("궁서",20));
         self.label2 = QLabel('파일', self);
@@ -72,7 +66,7 @@ class MyApp(QWidget):
         # --- 비우기 버튼 생성 --
         self.delete_button = QPushButton(self);
         self.delete_button.setText('청소')
-        self.delete_button.clicked.connect(self.clicked_delete_button)
+        self.delete_button.clicked.connect(self.clicked_delete_button);
 
         # 파일 열기 버튼
         self.open_button = QPushButton(self);
@@ -95,20 +89,49 @@ class MyApp(QWidget):
         self.layout.addWidget(self.label4,1,3);
 
         self.layout.addWidget(self.listwidget, 2, 0);
-        self.layout.addWidget(self.listwidget2, 2, 1)
+        self.layout.addWidget(self.listwidget2, 2, 1);
         self.layout.addWidget(self.listwidget3, 2, 2);
         self.layout.addWidget(self.listwidget4, 2, 3);
 
         self.layout.addWidget(self.delete_button,3,0);
         self.layout.addWidget(self.open_button,3,1);
         
+        self.listwidget2.setSortingEnabled(True);
+
         self.listwidget.resizeMode();
 
         self.setLayout(self.layout)
 
         self.setWindowTitle('폴더검색')
         self.setGeometry(300, 300, 1000, 500)
-        self.show()
+        self.show();
+
+        self.tray_icon = QSystemTrayIcon(self);
+        self.tray_icon.setIcon(self.style().standardIcon(QStyle.SP_MessageBoxInformation));
+
+        show_action = QAction(QIcon("1.png"),'&Open', self);
+        quit_action = QAction("Exit", self);
+        hide_action = QAction("Hide", self);
+
+        show_action.setStatusTip("실행");
+        show_action.setShortcut("Alt+F7");
+        show_action.triggered.connect(self.show);
+
+        hide_action.triggered.connect(self.hide);
+        quit_action.triggered.connect(qApp.quit);
+        
+        tray_menu = QMenu();
+        tray_menu.addAction(show_action);
+        tray_menu.addAction(hide_action);
+        tray_menu.addAction(quit_action);
+        self.tray_icon.setContextMenu(tray_menu);
+        self.tray_icon.show();
+
+        self.tray_icon.activated.connect(self.systemIcon);
+
+    def systemIcon(self, reason):
+        if reason == QSystemTrayIcon.DoubleClick:
+            self.show();
 
     def move_scrollbar(self,value):
         self.vs1.setValue(value);
@@ -124,10 +147,10 @@ class MyApp(QWidget):
 
         text = self.le.text();
         if not text.strip():
-            QMessageBox.about(self, '값을 입력해주세요','값을 입력해주세요.');
+            QMessageBox.about(self, 'confirm','값을 입력해주세요.');
             return;
         
-        with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScan.json', 'r', encoding='utf-8') as f:
+        with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScanfile.json', 'r', encoding='utf-8') as f:
         # with open('folderScan.json', 'r', encoding='utf-8') as f:
             json_data = json.load(f);
 
@@ -151,11 +174,13 @@ class MyApp(QWidget):
                             self.listwidget3.insertItem(cnt, k);
                             self.listwidget4.insertItem(cnt, l);
                     
-                        # else:
-                        #     print("None 파일")
-                        #     QMessageBox.about(self, 'None file','파일이 없습니다.');
-                        #     return self.append_text;
-
+                #파일 유무 체크.
+                # if self.listwidget2.count() <= 0:
+                #     QMessageBox.about(self,"None File","파일이 없습니다.");
+                #     self.listwidget2.clear();
+                #     self.le.clear();
+                #     return;
+                
                 except IndexError as In:
                     print(In);
                     pass
@@ -165,9 +190,10 @@ class MyApp(QWidget):
     
     def double_selectchanged_listwidget(self):
         lst_item = self.listwidget2.selectedItems();
+        choice_box = [];
 
         # with open('folderScan.json', 'r', encoding='utf-8') as f:
-        with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScan.json', 'r', encoding='utf-8') as f:
+        with open(r'\\10.12.11.20\TFO.FAIT.Share\folderScanfile.json', 'r', encoding='utf-8') as f:
                 json_data = json.load(f);
 
                 for item in lst_item:
@@ -177,9 +203,14 @@ class MyApp(QWidget):
 
                         for j in file:
                             if j == item.text():
-                                full_path = j.replace(":","\\");
-                                print(full_path);
-                                os.startfile(full_path);
+                                choice_box.append(path+'\\'+j);
+                try:
+                    if len(choice_box) == 1:
+                        os.startfile(choice_box[0]);
+                    else:
+                        QMessageBox.about(self,"다중 파일", "파일명이 중복되었습니다 경로를 확인해주세요");
+                except FileNotFoundError as fn:
+                    QMessageBox.about(self,"파일 없음", "파일을 찾을 수가 없습니다");
 
     def clicked_delete_button(self):
         self.listwidget.clear();
@@ -188,7 +219,41 @@ class MyApp(QWidget):
         self.listwidget4.clear();
         self.le.clear();
 
+    def closeEvent(self, event):
+        close = QMessageBox();
+        close.setText("프로그램을 종료 하시겠습니까?");
+        close.setStandardButtons(QMessageBox.Yes | QMessageBox.No);
+        close = close.exec();
+
+        if close == QMessageBox.Yes:
+            event.accept();
+        else:
+            event.ignore();
+
+    def changeEvent(self, event):
+        if event.type() == QEvent.WindowStateChange:
+            if event.oldState() and Qt.WindowMinimized:
+                print("show");
+                # self.show();
+                self.hide();
+                self.tray_icon.showMessage(
+                    "시작 프로그램 숨기기 확인해주세요",
+                    "Application was minimized to Tray",
+                    QSystemTrayIcon.Information,
+                    1000
+                )
+            # elif event.oldState() == Qt.WindowNoState or self.windowState() == Qt.WindowMaximized:
+            elif event.oldState() == Qt.WindowNoState or self.windowState() == Qt.WindowMaximized:
+                print("check");
+                # self.show();
+                # self.tray_icon.showMessage(
+                #     "시작 프로그램 숨기기 확인해주세요",
+                #     "Application was minimized to Tray",
+                #     QSystemTrayIcon.Information,
+                #     1000
+                # )
+
 if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    ex = MyApp()
+    app = QApplication(sys.argv);
+    ex = MyApp();
     sys.exit(app.exec_());
