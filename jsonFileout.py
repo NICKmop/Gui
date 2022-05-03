@@ -1,6 +1,4 @@
 #-*- coding:utf-8 -*-
-from dataclasses import replace
-from posixpath import split
 from datetime import datetime
 import os, json
 
@@ -14,7 +12,6 @@ def jsonFileInput(value):
 folderInfo = [];
 fileTimeBox = [];
 fileExe = [];
-fileWordBox = [];
 
 cnt = 0;
 for (path, dir, file) in os.walk(path_dir):
@@ -27,6 +24,7 @@ for (path, dir, file) in os.walk(path_dir):
         "file":file
     }
 
+    # 파일 들의 확장자 및 파일명 체크
     if not folderScan['file']:
         folderScan["fileCreateTime"] = fileTimeBox;
         folderScan["fileExe"] = fileExe;

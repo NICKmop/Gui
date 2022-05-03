@@ -201,6 +201,7 @@ class MyApp(QWidget):
                         path = json_data[i]['path'];
                         file = json_data[i]['file'];
 
+                        # 파일 찾는 부분입니다.
                         for j in file:
                             if j == item.text():
                                 choice_box.append(path+'\\'+j);
@@ -230,6 +231,7 @@ class MyApp(QWidget):
         else:
             event.ignore();
 
+    # 작업표시줄 숨기기 항목 으로 넘깁니다
     def changeEvent(self, event):
         if event.type() == QEvent.WindowStateChange:
             if event.oldState() and Qt.WindowMinimized:
@@ -245,13 +247,6 @@ class MyApp(QWidget):
             # elif event.oldState() == Qt.WindowNoState or self.windowState() == Qt.WindowMaximized:
             elif event.oldState() == Qt.WindowNoState or self.windowState() == Qt.WindowMaximized:
                 print("check");
-                # self.show();
-                # self.tray_icon.showMessage(
-                #     "시작 프로그램 숨기기 확인해주세요",
-                #     "Application was minimized to Tray",
-                #     QSystemTrayIcon.Information,
-                #     1000
-                # )
 
 if __name__ == '__main__':
     app = QApplication(sys.argv);
